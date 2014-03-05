@@ -43,8 +43,6 @@ angular.module('askDysonWebApp', ['pascalprecht.translate'])
                 {
                     SELECT_VACUUM: 'Select vacuum',
 
-                    IN_ACTION: 'See it in action',
-                    VIEW_GALLERY: 'View gallery',
                     INCLUDED_BOX: 'This machine also comes with',
 
                     SHOP_NOW: 'Shop now',
@@ -52,7 +50,12 @@ angular.module('askDysonWebApp', ['pascalprecht.translate'])
                     HYGENIC_BIN_TITLE: 'Hygenic bin emptying',
                     EXTRA_TOOLS_TITLE: 'Extra tools',
                     NO_EXTRA_COSTS_TITLE: 'No extra costs',
-                    FIVE_GUARANTEE_TITLE: '2 year guarantee'
+                    TWO_GUARANTEE_TITLE: '2 year guarantee',
+                    FIVE_GUARANTEE_TITLE: '5 year guarantee',
+
+                    HYGENIC_BIN_TEXT: 'Just press the button to release the dirt – quickly and hygienically.',
+                    EXTRA_TOOLS_TEXT: 'Dyson-engineered tools to remove dust and dirt from awkward places.',
+                    NO_EXTRA_COSTS_TEXT: 'Dyson vacuums don\'t use bags and have lifetime washable filters - so no extra costs.'
                 },
                 INDEX :
                 {
@@ -88,8 +91,8 @@ angular.module('askDysonWebApp', ['pascalprecht.translate'])
                 },
                 HANDHELD:
                 {
-                    HERO_HEADLINE: 'Sucks up as much dust as even a corded vacuum.',
-                    HERO_BUTTON: 'Learn more',
+                    HERO_HEADLINE: 'The highest suction of any handheld',
+                    HERO_BUTTON: 'See it in action',
 
                     PRODUCT_1_PRICE: '€379',
                     PRODUCT_1_TAGLINE: '15 minutes of high powerful suction that doesn’t fade.',
@@ -101,7 +104,52 @@ angular.module('askDysonWebApp', ['pascalprecht.translate'])
                     // PRODUCT_2_TOOL_1_TITLE:
                     // PRODUCT_2_TOOL_2_TITLE:
 
-                    ALL_DYSONS_HAVE: 'All Dyson cylinder vacuums have'
+                    ALL_DYSONS_HAVE: 'All Dyson handheld vacuums have',
+
+                    TWO_GUARANTEE_TEXT: 'All new Dyson handheld vacuums come with a free 2 year parts and labour guarantee.'
+
+                },
+                CORDLESS:
+                {
+                    HERO_HEADLINE: 'Sucks up as much dust as even a corded vacuum.',
+                    HERO_BUTTON: 'See it in action',
+
+                    PRODUCT_1_PRICE: '€379',
+                    PRODUCT_1_TAGLINE: 'The most powerful cordless vacuum for floor to ceiling cleaning.',
+                    PRODUCT_1_TOOL_1_TITLE: 'Combination tool',
+                    PRODUCT_1_TOOL_2_TITLE: 'Flexi tool',
+                    PRODUCT_1_TOOL_3_TITLE: 'Mini motorised tool',
+
+                    // PRODUCT_2_PRICE:
+                    // PRODUCT_2_TAGLINE
+                    // PRODUCT_2_TOOL_1_TITLE:
+                    // PRODUCT_2_TOOL_2_TITLE:
+
+                    ALL_DYSONS_HAVE: 'All Dyson cordless vacuums have',
+
+                    TWO_GUARANTEE_TEXT: 'All new Dyson fans & heaters come with a free 2 year parts and labour guarantee.'
+
+                },
+                CYLINDER:
+                {
+                    HERO_HEADLINE_1: 'The only vacuum with',
+                    HERO_HEADLINE_2: 'No maintenance of filters No bags to buy and <br /> No loss of suction',
+                    HERO_BUTTON: 'See it in action',
+
+                    PRODUCT_1_PRICE: '€379',
+                    PRODUCT_1_TAGLINE: 'Powerful complete clean around the home.',
+                    PRODUCT_1_TOOL_1_TITLE: 'Tangle-free turbine',
+                    PRODUCT_1_TOOL_2_TITLE: 'Articulating hard floor tool',
+                    PRODUCT_1_TOOL_3_TITLE: 'Stubborn dirt brush',
+
+                    // PRODUCT_2_PRICE:
+                    // PRODUCT_2_TAGLINE
+                    // PRODUCT_2_TOOL_1_TITLE:
+                    // PRODUCT_2_TOOL_2_TITLE:
+
+                    ALL_DYSONS_HAVE: 'All Dyson cylinder vacuums have',
+
+                    TWO_GUARANTEE_TEXT: 'All new Dyson handheld vacuums come with a free 2 year parts and labour guarantee.'
 
                 }
             })
