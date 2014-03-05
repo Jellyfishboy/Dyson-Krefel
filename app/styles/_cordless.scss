@@ -1,0 +1,81 @@
+.cordless {
+    .hero {
+        margin-bottom: 0px !important;
+            .hero_image {
+                background:url(../images/cordless/hero.jpg);
+                background-repeat: no-repeat;
+                height:100%;
+            }
+            h1 {
+                margin: 282px 0 20px 130px;
+                width: 295px;
+                text-align: center;
+            }
+            .action {
+               margin-left:210px; 
+            }
+    }
+     h1 {
+        text-align: center;
+        margin:40px 0;
+    }
+    .bin, .extra_tools, .cost, .guarantee {
+        width:165px;
+        height:151px;
+    }
+    .bin {
+        background-image:url(../images/cordless/panel1.jpg);
+    }
+    .extra_tools {
+        background-image:url(../images/cordless/panel2.jpg);
+    }
+    .cost {
+        background-image:url(../images/cordless/panel3.jpg);
+    }
+    .guarantee {
+        background-image:url(../images/guarantee_2.jpg);
+    }
+    .dc62_animal {
+        .model {
+            background-image:url(../images/cordless/dc62_animal.jpg);
+            width:103px;
+            height:60px;
+        }
+        .product_image {
+            background-image:url(../images/cordless/dc62.jpg);
+            height:353px;
+            width:359px;
+        }
+        .gallery1 {
+            background-image:url(../images/cordless/gallery1.jpg);
+        }
+        .gallery2 {
+            background-image:url(../images/cordless/gallery2.jpg);
+        }
+        .gallery3 {
+            background-image:url(../images/cordless/gallery3.jpg);
+        }
+        .gallery4 {
+            background-image:url(../images/cordless/gallery4.jpg);
+        }
+    }
+    table {
+        #product_1 {
+            @extend .sp-cordless-1;
+        }   
+        #product_2 {
+            @extend .sp-cordless-2;
+        } 
+        #product_3 {
+            @extend .sp-cordless-3;
+        } 
+        #product_4 {
+            @extend .sp-cordless-4;
+        } 
+        #product_1, #product_2, #product_3, #product_4 {
+            width:91px;
+            height:91px;
+            margin:0 auto;   
+        }
+    }
+}

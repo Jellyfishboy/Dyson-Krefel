@@ -1,0 +1,112 @@
+.cylinders {
+    .hero {
+        margin-bottom: 0px !important;
+            .hero_image {
+                background:url(../images/cylinders/hero.jpg);
+                background-repeat: no-repeat;
+                height:100%;
+            }
+            h1:first-child {
+                color:$medgrey;
+                margin: 200px 0 0 58px;
+            }
+            h1 {
+                color:#fff;
+                margin: 3px 0 35px 58px;
+                width: 290px;
+                line-height: 30px;
+                text-align: left !important;
+            }
+            .action {
+                margin-left:58px;
+            }
+    }
+        .hygenic, .extra, .cost, .guarantee {
+        width:165px;
+        height:151px;
+    }
+    .hygenic {
+        background-image:url(../images/cordless/panel1.jpg);
+    }
+    .extra {
+        background-image:url(../images/cordless/panel2.jpg);
+    }
+    .cost {
+        background-image:url(../images/cordless/panel3.jpg);
+    }
+    .guarantee {
+        background-image:url(../images/guarantee_2.jpg);
+    }
+    h1 {
+        text-align: center;
+        margin:40px 0;
+    }
+    .dc34_origin, .dc34_animal {
+        height:213px;
+        width:168px;
+        display:inline-block;
+        margin-bottom:10px;
+        margin-top:30px;
+    }
+    .dc34_origin {
+        margin-left:15px;
+        background-image:url(../images/handhelds/sku1.png);
+    }
+    .dc34_animal {
+        background-image:url(../images/handhelds/sku2.png);
+    }
+    .select_vacuum {
+        .arrow {
+            left:81px;
+        }
+    }
+    .dc34_origin_info {
+        .model {
+            background-image:url(../images/cylinders/dc52_animal_complete.jpg);
+            width:179px;
+            height:59px;
+        }
+        .product_image {
+            background-image:url(../images/cylinders/dc52_animal_complete_hero.jpg);
+            height:366px;
+            width:360px;
+        }
+        .gallery1 {
+            background-image:url(../images/cylinders/gallery1.jpg);
+        }
+        .gallery2 {
+            background-image:url(../images/cylinders/gallery2.jpg);
+        }
+        .gallery3 {
+            background-image:url(../images/cylinders/gallery3.jpg);
+        }
+        .gallery4 {
+            background-image:url(../images/cylinders/gallery4.jpg);
+        }
+    }
+    table {
+        #product_1 {
+            @extend .sp-cylinder-1;
+        }   
+        #product_2 {
+            @extend .sp-cylinder-2;
+        }   
+        #product_3 {
+            @extend .sp-cylinder-3;
+        }   
+        #product_4 {
+            @extend .sp-cylinder-4;
+        }   
+        #product_5 {
+            @extend .sp-cylinder-5;
+        }   
+        #product_6 {
+            @extend .sp-cylinder-6;
+        }   
+        #product_1, #product_2, #product_3, #product_4, #product_5, #product_6 {
+            width:80px;
+            height:92px;
+            margin: 0 auto;
+        }
+    }
+}

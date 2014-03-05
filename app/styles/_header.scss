@@ -1,0 +1,36 @@
+#header {
+    background-color:#fff;
+    overflow: hidden;
+    margin:10px;
+    position: relative;
+    z-index:3;
+    #root {
+        @extend .sp-root;
+        width:105px;
+        height:57px;
+        float:left;
+    }
+    ul {
+        float:left;
+        height:57px;
+        margin:0;
+
+        li {
+            display: inline-block;
+            margin-right:30px;
+            margin-top:5.7%;
+                &:last-child {
+                    margin-right: 0px;
+                }
+                &.active {
+                    color:$medgrey;
+                }
+                a {
+                    color:$darkgrey;
+                        &:hover {
+                            color:$medgrey;
+                        }
+                }
+        }
+    }
+}
