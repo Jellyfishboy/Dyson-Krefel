@@ -21,26 +21,6 @@
                 margin-left:58px;
             }
     }
-        .hygenic, .extra, .cost, .guarantee {
-        width:165px;
-        height:151px;
-    }
-    .hygenic {
-        background-image:url(../images/cordless/panel1.jpg);
-    }
-    .extra {
-        background-image:url(../images/cordless/panel2.jpg);
-    }
-    .cost {
-        background-image:url(../images/cordless/panel3.jpg);
-    }
-    .guarantee {
-        background-image:url(../images/guarantee_2.jpg);
-    }
-    h1 {
-        text-align: center;
-        margin:40px 0;
-    }
     .dc34_origin, .dc34_animal {
         height:213px;
         width:168px;
@@ -82,31 +62,6 @@
         }
         .gallery4 {
             background-image:url(../images/cylinders/gallery4.jpg);
-        }
-    }
-    table {
-        #product_1 {
-            @extend .sp-cylinder-1;
-        }   
-        #product_2 {
-            @extend .sp-cylinder-2;
-        }   
-        #product_3 {
-            @extend .sp-cylinder-3;
-        }   
-        #product_4 {
-            @extend .sp-cylinder-4;
-        }   
-        #product_5 {
-            @extend .sp-cylinder-5;
-        }   
-        #product_6 {
-            @extend .sp-cylinder-6;
-        }   
-        #product_1, #product_2, #product_3, #product_4, #product_5, #product_6 {
-            width:80px;
-            height:92px;
-            margin: 0 auto;
         }
     }
 }

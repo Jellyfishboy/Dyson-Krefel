@@ -17,47 +17,46 @@
         height:129px;
     }
     .cylinders {
-        @extend .sp-index-panel-1;
+        @extend .index-panel-1;
     }
     .cordless {
-        @extend .sp-index-panel-2;
+        @extend .index-panel-2;
     }
     .handhelds {
-        @extend .sp-index-panel-3;
+        @extend .index-panel-3;
     }
     .fans {
-        @extend .sp-index-panel-4;
+        @extend .index-panel-4;
     }
     .video {
         background-image:url(../images/index/james_dyson.jpg);
         background-repeat: no-repeat;
         height: 300px;
         margin-top:40px;
+        overflow: hidden;
          h1 {
             color:#fff;
-            width:290px;
-            position: absolute;
-            right: 0px;
-            top:40px;
+            width:285px;
+            float:right;
+            margin:80px 20px 0 0;
             text-align: left;
          }
     }
     h1 {
-        text-align: center;
-        margin:40px 0;
+        margin:40px 0 20px;
     }
     .ball, .cyclone, .multiplier {
         height:177px;
         width:210px;
     }
     .ball {
-        background-image:url(../images/index/ball.jpg);
+        @extend .index-ball;
     }
     .cyclone {
-        background-image:url(../images/index/cyclone.jpg);
+        @extend .index-cyclone;
     }
     .multiplier {
-        background-image:url(../images/index/multiplier.jpg);
+        @extend .index-multiplier;
     }
     .fourcol {
         p {

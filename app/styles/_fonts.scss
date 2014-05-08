@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'FuturaBT-Book';
+    src: url('fonts/futura_book.eot');
+    src: url('fonts/futura_book.eot?#iefix') format('embedded-opentype'),
+         url('fonts/futura_book.svg#FuturaBT-Book') format('svg'),
+         url('fonts/futura_book.woff') format('woff'),
+         url('fonts/futura_book.ttf') format('truetype');
+         font-weight:normal;
+         font-style:normal;     
+}
+ 
+@font-face {
+    font-family: 'Futura-Lt-BT';
+    src: url('fonts/FuturaBTW01Light.eot');
+    src: url('fonts/FuturaBTW01Light.eot?#iefix') format('embedded-opentype'),
+         url('fonts/FuturaBTW01Light.svg#FuturaBT-Book-Light') format('svg'),
+         url('fonts/FuturaBTW01Light.woff') format('woff'),         
+         url('fonts/FuturaBTW01Light.ttf') format('truetype');
+         font-weight:normal;
+         font-style:normal; 
+}
+
+@font-face {
+    font-family: 'FuturaBT-Book-Heavy';
+    src: url('fonts/FuturaBTW01Heavy.eot');
+    src: url('fonts/FuturaBTW01Heavy.eot?#iefix') format('embedded-opentype'),
+         url('fonts/FuturaBTW01Heavy.svg#FuturaBT-Book-Heavy') format('svg'),
+         url('fonts/FuturaBTW01Heavy.woff') format('woff'),
+         url('fonts/FuturaBTW01Heavy.ttf') format('truetype');   
+         font-weight:normal;
+         font-style:normal;
+}
+
+@font-face {
+    font-family: 'Futura-Md-BT';
+    src: url('fonts/FuturaBTW01Medium.eot');
+    src: url('fonts/FuturaBTW01Medium.eot?#iefix') format('embedded-opentype'),
+         url('fonts/FuturaBTW01Medium.svg#FuturaBT-Book-Medium') format('svg'),
+         url('fonts/FuturaBTW01Medium.woff') format('woff'),
+         url('fonts/FuturaBTW01Medium.ttf') format('truetype');
+         font-weight:normal;
+         font-style:normal; 
+}
+
+.futura-light {
+    font-family: 'Futura-Lt-BT', 'Century Gothic', CenturyGothic, sans-serif;
+    font-weight: normal;
+}
+
+.futura {
+    font-family: 'FuturaBT-Book', 'Century Gothic', CenturyGothic, sans-serif;
+    font-weight: normal;
+}
+
+.futura-medium {
+    font-family: 'Futura-Md-BT', 'Century Gothic', CenturyGothic, sans-serif;
+    font-weight: normal;
+}
+
+.futura-heavy {
+    font-family: 'FuturaBT-Book-Heavy', 'Century Gothic', CenturyGothic, sans-serif;
+    font-weight: normal;
+}

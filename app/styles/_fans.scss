@@ -10,17 +10,9 @@
                 margin: 210px 0 40px 55px;
                 width: 280px;
             }
-            .action {
+            .dbutton {
                margin-left:55px; 
             }
-    }
-    h1 {
-        text-align: center;
-        margin:40px 0;
-    }
-    .safe, .tilt, .clean, .guarantee {
-        width:165px;
-        height:151px;
     }
     .safe {
         background-image:url(../images/fans/panel1.jpg);
@@ -30,9 +22,6 @@
     }
     .clean {
         background-image:url(../images/fans/panel3.jpg);
-    }
-    .guarantee {
-        background-image:url(../images/guarantee_2.jpg);
     }
     .am05_iron_blue {
         .model {
@@ -56,25 +45,6 @@
         }
         .gallery4 {
             background-image:url(../images/fans/gallery4.jpg);
-        }
-    }
-    table {
-        #product_1 {
-            @extend .sp-fan-1;
-        }   
-        #product_2 {
-            @extend .sp-fan-2;
-        }   
-        #product_3 {
-            @extend .sp-fan-3;
-        }   
-        #product_4 {
-            @extend .sp-fan-4;
-        }   
-        #product_1, #product_2, #product_3, #product_4  {
-            width:60px;
-            height:88px;
-            margin:0 auto; 
         }
     }
 }

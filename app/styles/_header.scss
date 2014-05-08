@@ -14,11 +14,16 @@
         float:left;
         height:57px;
         margin:0;
+        display:table-row;
 
         li {
             display: inline-block;
-            margin-right:30px;
-            margin-top:5.7%;
+            padding-right:30px;
+            display: table-cell;
+            vertical-align: middle;
+            height:57px;    
+            @extend .futura-medium;
+            font-size:1.2em;
                 &:last-child {
                     margin-right: 0px;
                 }
@@ -26,7 +31,10 @@
                     color:$medgrey;
                 }
                 a {
+                    display:table-cell;
+                    vertical-align: middle;
                     color:$darkgrey;
+                    height:57px;
                         &:hover {
                             color:$medgrey;
                         }

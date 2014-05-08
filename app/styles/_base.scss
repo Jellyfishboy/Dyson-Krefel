@@ -1,0 +1,207 @@
+body {
+    color:$darkgrey;
+    @extend .futura;
+}
+h1 {
+    font-size: 25px;
+    text-align: center;
+    margin:40px 0;
+}
+h2 {
+    font-size:18px;
+}
+h1, h2 {
+    @extend .futura-light;
+}
+p {
+    margin:10px 0 20px !important;       
+}
+a.active, a:hover {
+    text-decoration: none;
+}
+.dbutton {
+    color:$darkgrey;
+    padding:5px 30px;
+    outline:none;
+    @include border-radius(17px);
+    font-weight:bold;
+    display: inline-block;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        &:hover {
+            color:#000;
+            text-decoration: none;
+        }
+        &.grey {
+            background-color: $buttongrey;
+        }
+        &.yellow {
+            background-color: #ffcc00;
+        }
+        &.darkgrey {
+            background:$medgrey;
+            color:#fff;
+        }
+}
+.video_selector {
+    text-align: center;
+    font-size:30px;
+        .icon-stack {
+                
+        }
+}
+.icon-stack.player {
+    font-size: 40px;
+    cursor:pointer;
+    @include opacity(0.3);
+    @include transition-property(opacity);
+    @include transition-duration(0.4s);
+    @include transition-timing-function(ease-in);
+        .icon-circle {
+            color:#fff;
+        }
+        &:hover {
+            @include opacity(0.8);
+        }
+        .icon-play {
+            left:3px;
+        }
+        i {
+            line-height:80px;
+        }
+}
+.gradient {
+    background-color: rgb(255,255,255);
+    @include filter-gradient(#ffffff, #ededed, vertical);
+    $experimental-support-for-svg: true;
+    @include background-image(linear-gradient(top, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 59%,rgba(237,237,237,1) 100%));
+}
+.border_bottom {
+    border-bottom:1px solid #cccccc;
+}
+.border_top {
+    border-top:1px solid #cccccc;
+}
+.features {
+    .extra {
+        background-image:url(../images/cordless/panel2.jpg);
+    }
+    .cost {
+        background-image:url(../images/cordless/panel3.jpg);
+    }
+    .hygenic {
+        background-image:url(../images/cordless/panel1.jpg);
+    }
+    .guarantee_2 {
+        background-image:url(../images/guarantee_2.jpg);
+    }
+    .guarantee_5 {
+        background-image:url(../images/guarantee_5.jpg);
+    }
+    .threecol div:first-child {
+        width:165px;
+        height:151px;
+    }
+}
+.hero {
+    margin-bottom:30px;
+    height:480px;
+    .twelvecol {
+        position: relative;
+        height:480px;
+            .hero_image {
+                z-index:1;
+                position: absolute;
+                top:0px;
+                left:0px;
+                width:100%;
+            }
+    }
+}
+.gutter {
+    padding:0 15px;
+}
+.select_vacuum {
+    overflow:visible !important;
+    border-bottom:1px solid #d7d7d7;
+    .vacuums {
+            .arrow {
+                @extend .sp-arrow;
+                width:31px;
+                height:14px;
+                position: relative;
+                top:14px;
+                display: block;
+            }
+            div {
+                cursor: pointer;
+            }
+    }
+}
+.product {
+    .product_menu {
+        float:right;
+        margin-top:11px;
+            p {
+                display: inline-block;
+                padding:0 13px 0 3px;
+            }
+            .icon-circle {
+                color:#878786;
+            }
+    }
+    .fourcol {
+        h2 {
+            &:first-child {
+                margin-top:50px;
+                @extend .futura-medium;
+            }
+            &:nth-child(2) {
+                padding-bottom:20px;
+                border-bottom:1px solid #ccc;
+            }
+        }
+        .tools {
+            border-bottom:1px solid #ccc;
+            margin-bottom:25px;
+                div {
+                    text-align: center;
+                    width:110px;
+                    display:inline-block;
+                }
+                p {
+                    margin:10px 0 !important;
+                }
+        }
+    }
+    .sixcol.last {
+        height:59px;
+        padding:16px 0;
+            .dbutton {
+                float:right;
+            }
+    }
+    .gallery {
+        div {
+            width:100px;
+            height:60px;
+            margin-bottom:10px;
+                &:first-child {
+                    margin-bottom: 0px;
+                }
+                &:last-child {
+                    margin-bottom: 30px;
+                }
+        }
+        p {
+            margin:30px 0 10px !important;
+        }
+    }
+}
+
+.compare {
+    overflow: hidden;
+        h1 {
+            float:left;
+            margin:20px 0 !important;
+        }
+}

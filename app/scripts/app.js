@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('askDysonWebApp', ['pascalprecht.translate'])
+angular.module('askDysonWebApp', ['pascalprecht.translate', 'ngRoute'])
     .config(function($routeProvider) {
         $routeProvider
             .when('/', {
@@ -52,6 +52,9 @@ angular.module('askDysonWebApp', ['pascalprecht.translate'])
                     NO_EXTRA_COSTS_TITLE: 'No extra costs',
                     TWO_GUARANTEE_TITLE: '2 year guarantee',
                     FIVE_GUARANTEE_TITLE: '5 year guarantee',
+
+                    SEE_IN_ACTION: 'See it in action',
+                    VIEW_GALLERY: 'View gallery',
 
                     HYGENIC_BIN_TEXT: 'Just press the button to release the dirt – quickly and hygienically.',
                     EXTRA_TOOLS_TEXT: 'Dyson-engineered tools to remove dust and dirt from awkward places.',
@@ -154,8 +157,13 @@ angular.module('askDysonWebApp', ['pascalprecht.translate'])
                 }
             })
             .translations('de-DE', {
-                HEADLINE: 'Willkommen',
-                INTRO_TEXT: 'Das ist ziemlich genial'
+                MENU:
+                {
+                    CYLINDER: 'Cylinders',
+                    CORDLESS: 'Cordless',
+                    HANDHELD: 'Handhelds',
+                    FANS_HEATERS: 'Fans & heaters'
+                },
             });
 
         function getUrlVars(queryString)

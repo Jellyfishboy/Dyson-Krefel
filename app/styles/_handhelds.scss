@@ -16,26 +16,6 @@
             }
 
     }
-    .hygenic, .extra, .cost, .guarantee {
-        width:165px;
-        height:151px;
-    }
-    .hygenic {
-        background-image:url(../images/handhelds/panel1.jpg);
-    }
-    .extra {
-        background-image:url(../images/handhelds/panel2.jpg);
-    }
-    .cost {
-        background-image:url(../images/handhelds/panel3.jpg);
-    }
-    .guarantee {
-        background-image:url(../images/guarantee_2.jpg);
-    }
-    h1 {
-        text-align: center;
-        margin:40px 0;
-    }
     .dc34_origin, .dc34_animal {
         height:213px;
         width:168px;
@@ -77,18 +57,6 @@
         }
         .gallery4 {
             background-image:url(../images/handhelds/gallery4.jpg);
-        }
-    }
-    table {
-        #product_1 {
-            @extend .sp-handheld-1;
-        }   
-        #product_2 {
-            @extend .sp-handheld-2;
-        }
-        #product_1, #product_2 {
-            width:92px;
-            height:61px;
         }
     }
 }
