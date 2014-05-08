@@ -42,6 +42,7 @@ angular.module('askDysonWebApp', ['pascalprecht.translate', 'ngRoute'])
                 SHARED:
                 {
                     SELECT_VACUUM: 'Select vacuum',
+                    SELECT_FAN: 'Select a fan',
 
                     INCLUDED_BOX: 'This machine also comes with',
 
@@ -53,14 +54,11 @@ angular.module('askDysonWebApp', ['pascalprecht.translate', 'ngRoute'])
                     TWO_GUARANTEE_TITLE: '2 year guarantee',
                     FIVE_GUARANTEE_TITLE: '5 year guarantee',
 
-                    SEE_IN_ACTION: 'See it in action',
-                    VIEW_GALLERY: 'View gallery',
-
                     HYGENIC_BIN_TEXT: 'Just press the button to release the dirt – quickly and hygienically.',
                     EXTRA_TOOLS_TEXT: 'Dyson-engineered tools to remove dust and dirt from awkward places.',
                     NO_EXTRA_COSTS_TEXT: 'Dyson vacuums don\'t use bags and have lifetime washable filters - so no extra costs.'
                 },
-                INDEX :
+                INDEX:
                 {
                     HERO_HEADLINE: 'Sucks up as much dust as even a corded vacuum.',
                     HERO_BUTTON: 'Learn more',
@@ -95,7 +93,7 @@ angular.module('askDysonWebApp', ['pascalprecht.translate', 'ngRoute'])
                 HANDHELD:
                 {
                     HERO_HEADLINE: 'The highest suction of any handheld',
-                    HERO_BUTTON: 'See it in action',
+                    HERO_BUTTON: 'Learn more',
 
                     PRODUCT_1_PRICE: '€379',
                     PRODUCT_1_TAGLINE: '15 minutes of high powerful suction that doesn’t fade.',
@@ -115,7 +113,7 @@ angular.module('askDysonWebApp', ['pascalprecht.translate', 'ngRoute'])
                 CORDLESS:
                 {
                     HERO_HEADLINE: 'Sucks up as much dust as even a corded vacuum.',
-                    HERO_BUTTON: 'See it in action',
+                    HERO_BUTTON: 'Learn more',
 
                     PRODUCT_1_PRICE: '€379',
                     PRODUCT_1_TAGLINE: 'The most powerful cordless vacuum for floor to ceiling cleaning.',
@@ -136,8 +134,9 @@ angular.module('askDysonWebApp', ['pascalprecht.translate', 'ngRoute'])
                 CYLINDER:
                 {
                     HERO_HEADLINE_1: 'The only vacuum with',
-                    HERO_HEADLINE_2: 'No maintenance of filters No bags to buy and <br /> No loss of suction',
-                    HERO_BUTTON: 'See it in action',
+                    HERO_HEADLINE_2: 'No maintenance of filters No bags to buy and',
+                    HERO_HEADLINE_3: 'No loss of suction',
+                    HERO_BUTTON: 'Learn more',
 
                     PRODUCT_1_PRICE: '€379',
                     PRODUCT_1_TAGLINE: 'Powerful complete clean around the home.',
@@ -152,8 +151,30 @@ angular.module('askDysonWebApp', ['pascalprecht.translate', 'ngRoute'])
 
                     ALL_DYSONS_HAVE: 'All Dyson cylinder vacuums have',
 
-                    TWO_GUARANTEE_TEXT: 'All new Dyson handheld vacuums come with a free 2 year parts and labour guarantee.'
+                    FIVE_GUARANTEE_TEXT: 'All new Dyson cylinder vacuums come with a free 5 year parts and labour guarantee.'
 
+                },
+                FANS:
+                {
+                    HERO_HEADLINE: 'Fast, even room heating. High velocity air to cool.',
+                    HERO_BUTTON: 'Learn more',
+
+                    PRODUCT_1_PRICE: '€379',
+                    PRODUCT_1_TAGLINE: 'In winder provides long-range heat projection. In summer it has powerful airflow and air velocity to cool you effectively.',
+                    PRODUCT_1_EXTRA: 'Heating and cooling fan - iron/blue.',
+
+                    ALL_DYSONS_HAVE: 'All Dyson fans & heaters have:',
+
+                    SAFE_TITLE: 'Safe',
+                    SAFE_TEXT: 'Dyson fans & heaters have no blades or visible heating elements.',
+
+                    TILT_TITLE: 'Touch tilt',
+                    TILT_TEXT: 'Dyson fans aren\'t top-heavy like some other fans, pivot on their own centre of gravity.',
+
+                    CLEAN_TITLE: 'Easy to clean',
+                    CLEAN_TEXT: 'Unlike many conventional fans Dyson fans & heaters have no grille, so they\'re easy to clean',
+
+                    TWO_GUARANTEE_TEXT: 'All new Dyson fans & heaters come with a free 2 year parts and labour guarantee.'
                 }
             })
             .translations('de-DE', {

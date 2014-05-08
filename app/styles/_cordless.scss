@@ -35,36 +35,5 @@
             height:353px;
             width:359px;
         }
-        .gallery1 {
-            background-image:url(../images/cordless/gallery1.jpg);
-        }
-        .gallery2 {
-            background-image:url(../images/cordless/gallery2.jpg);
-        }
-        .gallery3 {
-            background-image:url(../images/cordless/gallery3.jpg);
-        }
-        .gallery4 {
-            background-image:url(../images/cordless/gallery4.jpg);
-        }
-    }
-    table {
-        #product_1 {
-            @extend .sp-cordless-1;
-        }   
-        #product_2 {
-            @extend .sp-cordless-2;
-        } 
-        #product_3 {
-            @extend .sp-cordless-3;
-        } 
-        #product_4 {
-            @extend .sp-cordless-4;
-        } 
-        #product_1, #product_2, #product_3, #product_4 {
-            width:91px;
-            height:91px;
-            margin:0 auto;   
-        }
     }
 }

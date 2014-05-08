@@ -82,20 +82,23 @@ a.active, a:hover {
     border-top:1px solid #cccccc;
 }
 .features {
-    .extra {
-        background-image:url(../images/cordless/panel2.jpg);
+    .tools {
+        @extend .shared-tools;
     }
     .cost {
-        background-image:url(../images/cordless/panel3.jpg);
+        @extend .shared-cost;
     }
     .hygenic {
-        background-image:url(../images/cordless/panel1.jpg);
+        @extend .shared-hygenic;
+    }
+    .hygenic_handhelds {
+        @extend .handhelds-hygenic;
     }
     .guarantee_2 {
-        background-image:url(../images/guarantee_2.jpg);
+        @extend .shared-guarantee-2;
     }
     .guarantee_5 {
-        background-image:url(../images/guarantee_5.jpg);
+        @extend .shared-guarantee-5;
     }
     .threecol div:first-child {
         width:165px;
@@ -125,7 +128,7 @@ a.active, a:hover {
     border-bottom:1px solid #d7d7d7;
     .vacuums {
             .arrow {
-                @extend .sp-arrow;
+                @extend .shared-arrow;
                 width:31px;
                 height:14px;
                 position: relative;
@@ -179,22 +182,6 @@ a.active, a:hover {
             .dbutton {
                 float:right;
             }
-    }
-    .gallery {
-        div {
-            width:100px;
-            height:60px;
-            margin-bottom:10px;
-                &:first-child {
-                    margin-bottom: 0px;
-                }
-                &:last-child {
-                    margin-bottom: 30px;
-                }
-        }
-        p {
-            margin:30px 0 10px !important;
-        }
     }
 }
 

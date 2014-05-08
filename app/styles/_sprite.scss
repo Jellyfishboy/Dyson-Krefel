@@ -3,7 +3,9 @@
 .shared-arrow { @include shared-sprite(arrow); }
 .shared-hygenic { @include shared-sprite(panel1) };
 .shared-tools { @include shared-sprite(panel2) };
-.shared-extra { @include shared-sprite(panel3) };
+.shared-cost { @include shared-sprite(panel3) };
+.shared-guarantee-5 { @include shared-sprite(panel4_5) };
+.shared-guarantee-2 { @include shared-sprite(panel4_2) };
 
 /* Index */
 .index-panel-1 { @include index-sprite(panel1); }
@@ -13,6 +15,15 @@
 .index-ball { @include index-sprite(ball); }
 .index-cyclone { @include index-sprite(cyclone); }
 .index-multiplier { @include index-sprite(multiplier); }
+
+/* Fans & heaters */
+.fans-panel-1 { @include fans-sprite(panel1); }
+.fans-panel-2 { @include fans-sprite(panel2); }
+.fans-panel-3 { @include fans-sprite(panel3); }
+
+/* Handhelds */
+.handhelds-hygenic { @include handhelds-sprite(panel5); }
+
 
 // /* Handheld */
 // .sp-handheld-1 { @include machines-sprite(handheld1); }

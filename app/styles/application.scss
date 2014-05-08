@@ -9,6 +9,12 @@ $shared-layout:smart;
 $index-layout:smart;
 @import "index/*.png";
 
+$fans-layout:smart;
+@import "fans/*.png";
+
+$handhelds-layout:smart;
+@import "handhelds/*.png";
+
 /* Variables */
 $darkgrey: #333333;
 $medgrey: #999999;

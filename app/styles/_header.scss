@@ -5,7 +5,7 @@
     position: relative;
     z-index:3;
     #root {
-        @extend .sp-root;
+        @extend .shared-root;
         width:105px;
         height:57px;
         float:left;
