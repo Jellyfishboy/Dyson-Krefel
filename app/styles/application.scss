@@ -15,6 +15,15 @@ $fans-layout:smart;
 $handhelds-layout:smart;
 @import "handhelds/*.png";
 
+$cylinders-layout:smart;
+@import "cylinders/*.png";
+
+$cordless-layout:smart;
+@import "cordless/*.png";
+
+// $tools-layout:smart;
+// @import "tools/*.png";
+
 /* Variables */
 $darkgrey: #333333;
 $medgrey: #999999;

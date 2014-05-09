@@ -11,7 +11,7 @@
                 width: 295px;
                 text-align: center;
             }
-            .action {
+            .dbutton {
                margin-left:210px; 
             }
     }
@@ -23,17 +23,17 @@
         width:165px;
         height:151px;
     }
-
-    .dc62_animal {
+    // Product variant information
+    .dc62-animal {
         .model {
-            background-image:url(../images/cordless/dc62_animal.jpg);
-            width:103px;
-            height:60px;
+            @extend .cordless-dc62-animal-sku;
+            width:116px;
+            height:59px;
         }
-        .product_image {
-            background-image:url(../images/cordless/dc62.jpg);
-            height:353px;
-            width:359px;
+        .product-image {
+            background-image:url(../images/cordless/dc62_animal.jpg);
+            width:465px;
+            height:373px;
         }
     }
 }

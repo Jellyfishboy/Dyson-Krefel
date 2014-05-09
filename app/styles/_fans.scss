@@ -23,16 +23,17 @@
     .clean {
         @extend .fans-panel-3;
     }
-    .am05_iron_blue {
+    // Product variant information
+    .am05-iron-blue {
         .model {
-            background-image:url(../images/fans/am05.jpg);
-            width:148px;
+            @extend .fans-am05-sku;
+            width:157px;
             height:59px;
         }
-        .product_image {
-            background-image:url(../images/fans/am05_irn_blue.jpg);
-            height:382px;
-            width:360px;
+        .product-image {
+            background-image:url(../images/fans/am05_iron_blue.jpg);
+            width:465px;
+            height:375px;
         }
     }
 }

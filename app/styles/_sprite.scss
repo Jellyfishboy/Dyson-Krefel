@@ -20,9 +20,19 @@
 .fans-panel-1 { @include fans-sprite(panel1); }
 .fans-panel-2 { @include fans-sprite(panel2); }
 .fans-panel-3 { @include fans-sprite(panel3); }
+.fans-am05-sku { @include fans-sprite(am05_sku); }
 
 /* Handhelds */
 .handhelds-hygenic { @include handhelds-sprite(panel5); }
+.handhelds-dc34-origin-sku { @include handhelds-sprite(dc34_origin_sku); }
+
+/* Tools */
+
+/* Cylinder */
+.cylinders-dc52-animal-sku { @include cylinders-sprite(dc52_cylinder_sku); }
+
+/* Cordless */
+.cordless-dc62-animal-sku { @include cordless-sprite(dc62_animal_sku); }
 
 
 // /* Handheld */

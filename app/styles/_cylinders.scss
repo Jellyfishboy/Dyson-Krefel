@@ -21,35 +21,37 @@
                 margin-left:58px;
             }
     }
-    .dc34_origin, .dc34_animal {
-        height:213px;
-        width:168px;
-        display:inline-block;
-        margin-bottom:10px;
-        margin-top:30px;
-    }
-    .dc34_origin {
-        margin-left:15px;
-        background-image:url(../images/handhelds/sku1.png);
-    }
-    .dc34_animal {
-        background-image:url(../images/handhelds/sku2.png);
-    }
-    .select_vacuum {
+    // Select vacuum
+    .select-vacuum {
         .arrow {
             left:81px;
         }
+        .dc34-origin, .dc34-animal {
+            height:213px;
+            width:168px;
+            display:inline-block;
+            margin-bottom:10px;
+            margin-top:30px;
+        }
+        .dc34-origin {
+            margin-left:15px;
+            background-image:url(../images/handhelds/sku1.png);
+        }
+        .dc34-animal {
+            background-image:url(../images/handhelds/sku2.png);
+        }
     }
-    .dc34_origin_info {
+    // Product variant information
+    .dc52-animal {
         .model {
-            background-image:url(../images/cylinders/dc52_animal_complete.jpg);
-            width:179px;
+            @extend .cylinders-dc52-animal-sku;
+            width:198px;
             height:59px;
         }
-        .product_image {
-            background-image:url(../images/cylinders/dc52_animal_complete_hero.jpg);
-            height:366px;
-            width:360px;
+        .product-image {
+            background-image:url(../images/cylinders/dc52_animal.jpg);
+            width:465px;
+            height:375px;
         }
     }
 }

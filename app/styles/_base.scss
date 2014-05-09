@@ -123,7 +123,7 @@ a.active, a:hover {
 .gutter {
     padding:0 15px;
 }
-.select_vacuum {
+.select-vacuum {
     overflow:visible !important;
     border-bottom:1px solid #d7d7d7;
     .vacuums {
@@ -141,17 +141,6 @@ a.active, a:hover {
     }
 }
 .product {
-    .product_menu {
-        float:right;
-        margin-top:11px;
-            p {
-                display: inline-block;
-                padding:0 13px 0 3px;
-            }
-            .icon-circle {
-                color:#878786;
-            }
-    }
     .fourcol {
         h2 {
             &:first-child {
@@ -181,6 +170,7 @@ a.active, a:hover {
         padding:16px 0;
             .dbutton {
                 float:right;
+                margin-right:15px;
             }
     }
 }
