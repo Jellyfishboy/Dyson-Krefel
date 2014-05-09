@@ -25,8 +25,15 @@
 /* Handhelds */
 .handhelds-hygenic { @include handhelds-sprite(panel5); }
 .handhelds-dc34-origin-sku { @include handhelds-sprite(dc34_origin_sku); }
+.handhelds-sku-1 { @include handhelds-sprite(sku1); }
+.handhelds-sku-2 { @include handhelds-sprite(sku2); }
 
 /* Tools */
+.tools-crevice { @include tools-sprite(tool1); }
+.tools-combination { @include tools-sprite(tool2); }
+.tools-motorised { @include tools-sprite(tool3); }
+.tools-tft { @include tools-sprite(tool4); }
+.tools-stair { @include tools-sprite(tool5); }
 
 /* Cylinder */
 .cylinders-dc52-animal-sku { @include cylinders-sprite(dc52_cylinder_sku); }

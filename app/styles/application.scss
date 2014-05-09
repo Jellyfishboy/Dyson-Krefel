@@ -21,8 +21,8 @@ $cylinders-layout:smart;
 $cordless-layout:smart;
 @import "cordless/*.png";
 
-// $tools-layout:smart;
-// @import "tools/*.png";
+$tools-layout:smart;
+@import "tools/*.png";
 
 /* Variables */
 $darkgrey: #333333;

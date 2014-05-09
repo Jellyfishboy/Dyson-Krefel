@@ -45,8 +45,16 @@
         <div class="row select-vacuum gradient">
             <div class="threecol"></div>
             <div class="sixcol vacuums">
-                <div class="dc34-origin"></div>
-                <div class="dc34-animal"></div>
+                <div class="dc34-origin bordered current">
+                    <div></div>
+                    <p>{{ 'HANDHELD.PRODUCT_1_NAME' | translate }}</p>
+                    <p>{{ 'HANDHELD.PRODUCT_1_PRICE' | translate }}</p>
+                </div>
+                <div class="dc34-animal">
+                    <div></div>
+                    <p>{{ 'HANDHELD.PRODUCT_2_NAME' | translate }}</p>
+                    <p>{{ 'HANDHELD.PRODUCT_2_PRICE' | translate }}</p>
+                </div>
                 <span class="arrow"></span>
             </div>
             <div class="threecol last"></div>
@@ -66,17 +74,19 @@
                     <div class="product-image"></div>
                 </div>
                 <div class="fourcol last">
-                    <h2>{{ 'HANDHELD.PRODUCT_1_PRICE' | translate }}</h2>
-                    <h2>{{ 'HANDHELD.PRODUCT_1_TAGLINE' | translate }}</h2>
+                    <h2 class="dc34-origin">{{ 'HANDHELD.PRODUCT_1_PRICE' | translate }}</h2>
+                    <h3 class="dc34-origin">{{ 'HANDHELD.PRODUCT_1_TAGLINE' | translate }}</h2>
+                    <h2 class="dc34-animal">{{ 'HANDHELD.PRODUCT_2_PRICE' | translate }}</h2>
+                    <h3 class="dc34-animal">{{ 'HANDHELD.PRODUCT_2_TAGLINE' | translate }}</h2>
                     <div class="tools">
                         <p>{{ 'SHARED.INCLUDED_BOX' | translate }}</p>
-                        <div>
-                            <img height="66" src="images/handhelds/tool1.jpg" width="57" />
-                            <p>{{ 'HANDHELD.PRODUCT_1_TOOL_1_TITLE' | translate }}</p>
+                        <div class="crevice-tool tool">
+                            <div></div>
+                            <p>{{ 'SHARED.CREVICE_TOOL' | translate }}</p>
                         </div>
-                        <div>
-                            <img height="66" src="images/handhelds/tool2.jpg" width="59" />
-                            <p>{{ 'HANDHELD.PRODUCT_1_TOOL_2_TITLE' | translate }}</p>
+                        <div class="combination-tool tool">
+                            <div></div>
+                            <p>{{ 'SHARED.COMBINATION_TOOL' | translate }}</p>
                         </div>
                     </div>
                 </div>

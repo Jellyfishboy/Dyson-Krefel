@@ -56,7 +56,14 @@ angular.module('askDysonWebApp', ['pascalprecht.translate', 'ngRoute'])
 
                     HYGENIC_BIN_TEXT: 'Just press the button to release the dirt – quickly and hygienically.',
                     EXTRA_TOOLS_TEXT: 'Dyson-engineered tools to remove dust and dirt from awkward places.',
-                    NO_EXTRA_COSTS_TEXT: 'Dyson vacuums don\'t use bags and have lifetime washable filters - so no extra costs.'
+                    NO_EXTRA_COSTS_TEXT: 'Dyson vacuums don\'t use bags and have lifetime washable filters - so no extra costs.',
+
+                    CREVICE_TOOL: 'Crevice tool',
+                    COMBINATION_TOOL: 'Combination tool',
+                    TFT_TOOL: 'Flexi tool',
+                    MOTORISED_TOOL: 'Mini motorised tool',
+                    STAIR_TOOL: 'Stair tool'
+
                 },
                 INDEX:
                 {
@@ -95,15 +102,13 @@ angular.module('askDysonWebApp', ['pascalprecht.translate', 'ngRoute'])
                     HERO_HEADLINE: 'The highest suction of any handheld',
                     HERO_BUTTON: 'Learn more',
 
+                    PRODUCT_1_NAME: 'DC34 Origin',
                     PRODUCT_1_PRICE: '€379',
                     PRODUCT_1_TAGLINE: '15 minutes of high powerful suction that doesn’t fade.',
-                    PRODUCT_1_TOOL_1_TITLE: 'Crevice tool',
-                    PRODUCT_1_TOOL_2_TITLE: 'Combination tool',
 
-                    // PRODUCT_2_PRICE:
-                    // PRODUCT_2_TAGLINE
-                    // PRODUCT_2_TOOL_1_TITLE:
-                    // PRODUCT_2_TOOL_2_TITLE:
+                    PRODUCT_2_NAME: 'DC34 Animal',
+                    PRODUCT_2_PRICE: '€279',
+                    PRODUCT_2_TAGLINE: '2 15 minutes of high powerful suction that doesn’t fade.',
 
                     ALL_DYSONS_HAVE: 'All Dyson handheld vacuums have',
 
@@ -117,14 +122,10 @@ angular.module('askDysonWebApp', ['pascalprecht.translate', 'ngRoute'])
 
                     PRODUCT_1_PRICE: '€379',
                     PRODUCT_1_TAGLINE: 'The most powerful cordless vacuum for floor to ceiling cleaning.',
-                    PRODUCT_1_TOOL_1_TITLE: 'Combination tool',
-                    PRODUCT_1_TOOL_2_TITLE: 'Flexi tool',
-                    PRODUCT_1_TOOL_3_TITLE: 'Mini motorised tool',
+
 
                     // PRODUCT_2_PRICE:
                     // PRODUCT_2_TAGLINE
-                    // PRODUCT_2_TOOL_1_TITLE:
-                    // PRODUCT_2_TOOL_2_TITLE:
 
                     ALL_DYSONS_HAVE: 'All Dyson cordless vacuums have',
 
@@ -140,14 +141,9 @@ angular.module('askDysonWebApp', ['pascalprecht.translate', 'ngRoute'])
 
                     PRODUCT_1_PRICE: '€379',
                     PRODUCT_1_TAGLINE: 'Powerful complete clean around the home.',
-                    PRODUCT_1_TOOL_1_TITLE: 'Tangle-free turbine',
-                    PRODUCT_1_TOOL_2_TITLE: 'Articulating hard floor tool',
-                    PRODUCT_1_TOOL_3_TITLE: 'Stubborn dirt brush',
 
                     // PRODUCT_2_PRICE:
                     // PRODUCT_2_TAGLINE
-                    // PRODUCT_2_TOOL_1_TITLE:
-                    // PRODUCT_2_TOOL_2_TITLE:
 
                     ALL_DYSONS_HAVE: 'All Dyson cylinder vacuums have',
 

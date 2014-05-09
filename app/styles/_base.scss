@@ -7,10 +7,10 @@ h1 {
     text-align: center;
     margin:40px 0;
 }
-h2 {
+h2, h3 {
     font-size:18px;
 }
-h1, h2 {
+h1, h2, h3 {
     @extend .futura-light;
 }
 p {
@@ -137,32 +137,64 @@ a.active, a:hover {
             }
             div {
                 cursor: pointer;
+                    p {
+                        margin:0 !important;
+                        text-align: center;
+                    }
+                    &.bordered p {
+                        border-left:1px solid #ccc;
+                    }
+            }
+            .current {
+                @extend .futura-medium;
             }
     }
 }
 .product {
     .fourcol {
+        h2,h3 {
+            display: none;
+        }
         h2 {
-            &:first-child {
-                margin-top:50px;
-                @extend .futura-medium;
-            }
-            &:nth-child(2) {
-                padding-bottom:20px;
-                border-bottom:1px solid #ccc;
-            }
+            margin-top:50px;
+            @extend .futura-medium;
+        }
+        h3 {
+            padding-bottom:20px;
+            border-bottom:1px solid #ccc;
         }
         .tools {
             border-bottom:1px solid #ccc;
             margin-bottom:25px;
-                div {
+                .tool {
                     text-align: center;
                     width:110px;
-                    display:inline-block;
+                    display:none;
+                        div {
+                            width:55px;
+                            height:66px;
+                            margin:0 auto;
+                        }
+                        p {
+                            margin:10px 0 !important;
+                        }
+                        &.crevice-tool div {
+                            @extend .tools-crevice;
+                        }
+                        &.stair-tool div {
+                            @extend .tools-stair;
+                        }
+                        &.tft-tool div {
+                            @extend .tools-tft;
+                        }
+                        &.combination-tool div {
+                            @extend .tools-combination;
+                        }
+                        &.motorised-tool div {
+                            @extend .tools-motorised;
+                        }
                 }
-                p {
-                    margin:10px 0 !important;
-                }
+
         }
     }
     .sixcol.last {
