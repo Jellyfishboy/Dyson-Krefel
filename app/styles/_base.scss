@@ -1,6 +1,7 @@
 body {
     color:$darkgrey;
     @extend .futura;
+    max-width:780px;
 }
 h1 {
     font-size: 25px;
