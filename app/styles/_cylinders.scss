@@ -65,7 +65,7 @@
                      }
             }
             .dc-33-origin-plus {
-                
+
                     span {
                         width:114px;
                         @extend .cylinders-thumb-dc33-origin-plus;
@@ -79,6 +79,9 @@
             }
         }
     }
+    .product-image {
+        margin:20px 0;
+    }
     // Product variant information
     .dc-52-animal-complete {
         .model {
@@ -89,7 +92,7 @@
         .product-image {
             background-image:url(../images/cylinders/dc52_animal.jpg);
             width:465px;
-            height:375px;
+            height:400px;
         }
         h2.dc-52-animal-complete, h3.dc-52-animal-complete {
             display: block;
@@ -102,6 +105,12 @@
     }
     .dc-52-allergy-musclehead-parquet {
 
+        .product-image {
+            background-image:url(../images/cylinders/DC52_IRSRPU.jpg);
+            width:465px;
+            height:400px;
+        }
+
         h2.dc-52-allergy-musclehead-parquet, h3.dc-52-allergy-musclehead-parquet {
             display: block;
         }
@@ -111,13 +120,13 @@
             }
         }
     }
-    .dc-52-allergy-parquet {
-
-        h2.dc-52-allergy-parquet, h3.dc-52-allergy-parquet {
-            display: block;
-        }
-    }
     .dc-52-allergy-musclehead {
+
+        .product-image {
+            background-image:url(../images/cylinders/DC52_IRSBL.jpg);
+            width:465px;
+            height:400px;
+        }
 
         h2.dc-52-allergy-musclehead, h3.dc-52-allergy-musclehead {
             display: block;
@@ -131,6 +140,12 @@
     }
     .dc-33-allergy {
 
+        .product-image {
+            background-image:url(../images/cylinders/DC33c_IRSRIBL2.jpg);
+            width:465px;
+            height:400px;
+        }
+
         h2.dc-33-allergy, h3.dc-33-allergy {
             display: block;
         }
@@ -142,11 +157,34 @@
     }
     .dc-33-origin-plus {
 
+        .product-image {
+            background-image:url(../images/cylinders/DC33c_IRMRED.jpg);
+            width:465px;
+            height:400px;
+        }
+
         h2.dc-33-origin-plus, h3.dc-33-origin-plus {
             display: block;
         }
         .tools {
             .combination-tool, .stair-tool, .mattress-tool {
+                display: inline-block;
+            }
+        }
+    }
+    .dc-33-musclehead {
+
+        .product-image {
+            background-image:url(../images/cylinders/DC33c_IRSRIFU2.jpg);
+            width:465px;
+            height:400px;
+        }
+
+        h2.dc-33-allergy, h3.dc-33-allergy {
+            display: block;
+        }
+        .tools {
+            .combination-tool, .stair-tool {
                 display: inline-block;
             }
         }

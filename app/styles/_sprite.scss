@@ -36,8 +36,8 @@
 /* Handhelds */
 .handhelds-hygenic { @include handhelds-sprite(panel5); }
 .handhelds-dc34-origin-sku { @include handhelds-sprite(dc34_origin_sku); }
-.handhelds-sku-1 { @include handhelds-sprite(sku1); }
-.handhelds-sku-2 { @include handhelds-sprite(sku2); }
+.handhelds-thumb-dc34-origin { @include handhelds-sprite(thumb_dc34_origin); }
+.handhelds-thumb-dc34-animal { @include handhelds-sprite(thumb_dc34_animal); }
 
 /* Tools */
 .tools-crevice { @include tools-sprite(tool1); }

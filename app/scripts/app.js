@@ -105,12 +105,12 @@ angular.module('askDysonWebApp', ['pascalprecht.translate', 'ngRoute'])
                     HERO_HEADLINE: 'The highest suction of any handheld',
                     HERO_BUTTON: 'Learn more',
 
-                    PRODUCT_1_NAME: 'DC34 Animal',
-                    PRODUCT_1_PRICE: '€379',
+                    PRODUCT_1_NAME: 'DC34 Origin',
+                    PRODUCT_1_PRICE: '€279',
                     PRODUCT_1_TAGLINE: '15 minutes of high powerful suction that doesn’t fade.',
 
-                    PRODUCT_2_NAME: 'DC34 Origin',
-                    PRODUCT_2_PRICE: '€279',
+                    PRODUCT_2_NAME: 'DC34 Animal',
+                    PRODUCT_2_PRICE: '€379',
                     PRODUCT_2_TAGLINE: '2 15 minutes of high powerful suction that doesn’t fade.',
 
                     ALL_DYSONS_HAVE: 'All Dyson handheld vacuums have',

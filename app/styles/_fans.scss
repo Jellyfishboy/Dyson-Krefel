@@ -82,6 +82,9 @@
             }
         }
     }
+    .product-image {
+        margin:20px 0;
+    }
     // Product variant information
     .am-05-iron-blue {
         .model {
@@ -90,9 +93,9 @@
             height:59px;
         }
         .product-image {
-            background-image:url(../images/fans/am05_iron_blue.jpg);
+            background-image:url(../images/fans/AM05_IRSBL.jpg);
             width:465px;
-            height:375px;
+            height:400px;
         }
         h2.am-05-iron-blue, h3.am-05-iron-blue {
             display: block;
@@ -100,11 +103,23 @@
     }
     .am-05-black-nickel {
 
+        .product-image {
+            background-image:url(../images/fans/AM05_BLKNK.jpg);
+            width:465px;
+            height:400px;
+        }
+
         h2.am-05-black-nickel, h3.am-05-black-nickel {
             display: block;
         }
     }
     .am-05-white-silver {
+
+        .product-image {
+            background-image:url(../images/fans/AM05_WHSIL.jpg);
+            width:465px;
+            height:400px;
+        }
 
         h2.am-05-white-silver, h3.am-05-white-silver {
             display: block;
@@ -112,17 +127,35 @@
     }
     .am-06-white-silver {
 
+        .product-image {
+            background-image:url(../images/fans/AM06_12_WHSIL.jpg);
+            width:465px;
+            height:400px;
+        }
+
         h2.am-06-white-silver, h3.am-06-white-silver {
             display: block;
         }
     }
     .am-07-black-nickel {
 
+        .product-image {
+            background-image:url(../images/fans/AM07_BLKNK.jpg);
+            width:465px;
+            height:400px;
+        }
+
         h2.am-07-black-nickel, h3.am-07-black-nickel {
             display: block;
         }
     }
     .am-08-white-silver {
+
+        .product-image {
+            background-image:url(../images/fans/AM08.jpg);
+            width:465px;
+            height:400px;
+        }
 
         h2.am-08-white-silver, h3.am-08-white-silver {
             display: block;

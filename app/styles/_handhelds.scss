@@ -25,21 +25,20 @@
         }
         .dc-34-origin, .dc-34-animal {
             display:inline-block;
-            margin-bottom:10px;
-            margin-top:30px;
+            margin:10px 0 15px;
                 span {
-                    height:213px;
+                    height:202px;
                     width:168px;
                 }
         }
         .dc-34-origin {
-            margin-left:15px;
+            margin-left:25px;
                 span {
-                    @extend .handhelds-sku-1;
+                    @extend .handhelds-thumb-dc34-origin;
                 }
         }
         .dc-34-animal span {
-            @extend .handhelds-sku-2;
+            @extend .handhelds-thumb-dc34-animal;
         }
     }
     // Product variant information
@@ -50,9 +49,9 @@
             height:59px;
         }
         .product-image {
-            background-image:url(../images/handhelds/dc34_origin.jpg);
+            background-image:url(../images/handhelds/DC34_IRSFU.jpg);
             width:465px;
-            height:373px;
+            height:370px;
         }
         h2.dc-34-origin, h3.dc-34-origin {
             display: block;
@@ -70,9 +69,9 @@
             height:59px;
         }
         .product-image {
-            background-image:url(../images/handhelds/dc34_animal.jpg);
+            background-image:url(../images/handhelds/DC34_IRSRPU2.jpg);
             width:465px;
-            height:373px;
+            height:370px;
         }
         h2.dc-34-animal, h3.dc-34-animal {
             display: block;
