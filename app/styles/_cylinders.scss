@@ -23,26 +23,64 @@
     }
     // Select vacuum
     .select-vacuum {
-        .arrow {
-            left:81px;
-        }
-        .dc34-origin, .dc34-animal {
-            height:213px;
-            width:168px;
-            display:inline-block;
-            margin-bottom:10px;
-            margin-top:30px;
-        }
-        .dc34-origin {
-            margin-left:15px;
-            background-image:url(../images/handhelds/sku1.png);
-        }
-        .dc34-animal {
-            background-image:url(../images/handhelds/sku2.png);
+        .vacuums {
+            div {
+                display: inline-block;
+                margin:10px 0 15px;
+                    span {
+                        height:175px;
+                    }
+            }
+            .arrow {
+                left:79.5px;
+            }
+            .dc-52-animal-complete {
+                width:125px;
+                margin-left:35px;
+                    span {
+                        width:132px;
+                        @extend .cylinders-thumb-dc52-animal-complete;
+                    }
+            }
+            .dc-52-allergy-musclehead-parquet {
+                width:102px;
+                    span {
+                        width:105px;
+                        @extend .cylinders-thumb-dc52-allergy-musclehead-parquet;
+                    }
+            }
+            .dc-52-allergy-musclehead {
+                width: 110px;
+                margin-right: 5px;
+                    span {
+                        width:111px;
+                        @extend .cylinders-thumb-dc52-allergy-musclehead;
+                    }
+            }
+            .dc-33-allergy {
+                
+                     span {
+                        width:133px;
+                        @extend .cylinders-thumb-dc33-allergy;
+                     }
+            }
+            .dc-33-origin-plus {
+                
+                    span {
+                        width:114px;
+                        @extend .cylinders-thumb-dc33-origin-plus;
+                    }
+            }
+            .dc-33-musclehead {
+
+                    span {
+
+                    }
+            }
         }
     }
     // Product variant information
-    .dc52-animal {
+    .dc-52-animal-complete {
         .model {
             @extend .cylinders-dc52-animal-sku;
             width:198px;
@@ -52,6 +90,65 @@
             background-image:url(../images/cylinders/dc52_animal.jpg);
             width:465px;
             height:375px;
+        }
+        h2.dc-52-animal-complete, h3.dc-52-animal-complete {
+            display: block;
+        }
+        .tools {
+            .combination-tool, .stair-tool, .hard-tool, .tft-tool, .stubborn-tool {
+                display: inline-block;
+            }
+        }
+    }
+    .dc-52-allergy-musclehead-parquet {
+
+        h2.dc-52-allergy-musclehead-parquet, h3.dc-52-allergy-musclehead-parquet {
+            display: block;
+        }
+        .tools {
+            .combination-tool, .stair-tool, .hard-tool {
+                display: inline-block;
+            }
+        }
+    }
+    .dc-52-allergy-parquet {
+
+        h2.dc-52-allergy-parquet, h3.dc-52-allergy-parquet {
+            display: block;
+        }
+    }
+    .dc-52-allergy-musclehead {
+
+        h2.dc-52-allergy-musclehead, h3.dc-52-allergy-musclehead {
+            display: block;
+        }
+
+        .tools {
+            .combination-tool, .stair-tool {
+                display: inline-block;
+            }
+        }
+    }
+    .dc-33-allergy {
+
+        h2.dc-33-allergy, h3.dc-33-allergy {
+            display: block;
+        }
+        .tools {
+            .combination-tool, .stair-tool {
+                display: inline-block;
+            }
+        }
+    }
+    .dc-33-origin-plus {
+
+        h2.dc-33-origin-plus, h3.dc-33-origin-plus {
+            display: block;
+        }
+        .tools {
+            .combination-tool, .stair-tool, .mattress-tool {
+                display: inline-block;
+            }
         }
     }
 }

@@ -24,8 +24,48 @@
         width:165px;
         height:151px;
     }
+    // Select vacuum
+    .select-vacuum {
+        .vacuums {
+            div {
+                display: inline-block;
+                margin:10px 0 15px;
+                    span {
+                        height:203px;
+                    }
+            }
+            .arrow {
+                left:108.5px;
+            }
+            .dc-62-animal-pro {
+                width:129px;
+                margin-left:62px;
+                    span {
+                        @extend .cordless-thumb-dc62-animal-pro;
+                    }
+            }
+            .dc-62-uptop {
+                width:129px;
+                    span {
+                        @extend .cordless-thumb-dc62-uptop;
+                    }
+            }
+            .dc-45-animal-pro {
+                width:124px;
+                    span {
+                        @extend .cordless-thumb-dc45-animal-pro;
+                    }
+            }
+            .dc-35-multifloor {
+                width:137px;
+                    span {
+                        @extend .cordless-thumb-dc35-multifloor;
+                    }
+            }
+        }
+    }
     // Product variant information
-    .dc62-animal {
+    .dc-62-animal-pro {
         .model {
             @extend .cordless-dc62-animal-sku;
             width:116px;
@@ -35,6 +75,47 @@
             background-image:url(../images/cordless/dc62_animal.jpg);
             width:465px;
             height:373px;
+        }
+        h2.dc-62-animal, h3.dc-62-animal {
+            display: block;
+        }
+        .tools {
+            .motorised-tool, .crevice-tool, .combination-tool {
+                display: inline-block;
+            }
+        }
+    }
+    .dc-62-uptop {
+
+        h2.dc-62-uptop, h3.dc-62-uptop {
+            display: block;
+        }
+        .tools {
+            .motorised-tool, .crevice-tool, .combination-tool {
+                display: inline-block;
+            }
+        }
+    }
+    .dc-45-animal-pro {
+
+        h2.dc-45-animal-pro, h3.dc-45-animal-pro {
+            display: block;
+        }
+        .tools {
+            .motorised-tool, .crevice-tool, .combination-tool {
+                display: inline-block;
+            }
+        }
+    }
+    .dc-35-multifloor {
+
+        h2.dc-35-multifloor, h3.dc-35-multifloor {
+            display: block;
+        }
+        .tools {
+            .combination-tool {
+                display: inline-block;
+            }
         }
     }
 }

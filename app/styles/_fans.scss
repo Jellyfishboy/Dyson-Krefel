@@ -23,8 +23,67 @@
     .clean {
         @extend .fans-panel-3;
     }
+    // Select fan
+    .select-vacuum {
+        .vacuums {
+            div {
+                display: inline-block;
+                margin:15px 0;
+                    span {
+                        height:173px;
+                    }
+                    p:nth-child(2) {
+                        padding-top:5px;
+                    }
+            }
+            .arrow {
+                left:54.5px;
+            }
+            .am-08-white-silver {
+                padding-right:0;
+                span {
+                    width:135px;
+                    @extend .fans-thumb-am08-white-silver;
+                }
+            }
+            .am-07-black-nickel {
+                
+                span {
+                    width:124px;
+                    @extend .fans-thumb-am07-black-nickel;
+                }
+            }
+            .am-05-black-nickel {
+                padding-right:11px;
+                margin-left:26px;
+                span {
+                    width:96px;
+                    @extend .fans-thumb-am05-black-nickel;
+                }
+            }
+            .am-06-white-silver {
+                span {
+                    width:127px;
+                    @extend .fans-thumb-am06-white-silver;
+                }
+            }
+            .am-05-iron-blue {
+                span {
+                    width:114px;
+                    @extend .fans-thumb-am05-iron-blue;
+                }
+            }
+            .am-05-white-silver {
+                padding-right: 8px;
+                span {
+                    width:105px;
+                    @extend .fans-thumb-am05-white-silver;
+                }
+            }
+        }
+    }
     // Product variant information
-    .am05-iron-blue {
+    .am-05-iron-blue {
         .model {
             @extend .fans-am05-sku;
             width:157px;
@@ -34,6 +93,39 @@
             background-image:url(../images/fans/am05_iron_blue.jpg);
             width:465px;
             height:375px;
+        }
+        h2.am-05-iron-blue, h3.am-05-iron-blue {
+            display: block;
+        }
+    }
+    .am-05-black-nickel {
+
+        h2.am-05-black-nickel, h3.am-05-black-nickel {
+            display: block;
+        }
+    }
+    .am-05-white-silver {
+
+        h2.am-05-white-silver, h3.am-05-white-silver {
+            display: block;
+        }
+    }
+    .am-06-white-silver {
+
+        h2.am-06-white-silver, h3.am-06-white-silver {
+            display: block;
+        }
+    }
+    .am-07-black-nickel {
+
+        h2.am-07-black-nickel, h3.am-07-black-nickel {
+            display: block;
+        }
+    }
+    .am-08-white-silver {
+
+        h2.am-08-white-silver, h3.am-08-white-silver {
+            display: block;
         }
     }
 }

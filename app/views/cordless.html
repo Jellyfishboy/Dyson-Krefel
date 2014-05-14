@@ -43,15 +43,33 @@
             </div>
         </div>
         <div class="row select-vacuum gradient">
-            <div class="threecol"></div>
-            <div class="sixcol vacuums">
-                <div class="dc34_origin"></div>
-                <div class="dc34_animal"></div>
+            <div class="onecol"></div>
+            <div class="tencol vacuums">
+                <div class="dc-62-animal-pro bordered current">
+                    <span></span>
+                    <p>{{ 'CORDLESS.PRODUCT_1_NAME' | translate }}</p>
+                    <p>{{ 'CORDLESS.PRODUCT_1_PRICE' | translate }}</p>
+                </div>
+                <div class="dc-62-uptop">
+                    <span></span>
+                    <p>{{ 'CORDLESS.PRODUCT_2_NAME' | translate }}</p>
+                    <p>{{ 'CORDLESS.PRODUCT_2_PRICE' | translate }}</p>
+                </div>
+                <div class="dc-45-animal-pro bordered">
+                    <span></span>
+                    <p>{{ 'CORDLESS.PRODUCT_3_NAME' | translate }}</p>
+                    <p>{{ 'CORDLESS.PRODUCT_3_PRICE' | translate }}</p>
+                </div>
+                <div class="dc-35-multifloor bordered">
+                    <span></span>
+                    <p>{{ 'CORDLESS.PRODUCT_4_NAME' | translate }}</p>
+                    <p>{{ 'CORDLESS.PRODUCT_4_PRICE' | translate }}</p>
+                </div>
                 <span class="arrow"></span>
             </div>
-            <div class="threecol last"></div>
+            <div class="onecol last"></div>
         </div>
-        <div class="dc62-animal product">
+        <div class="dc-62-animal-pro product">
             <div class="row gutter">
                 <div class="sixcol">
                     <div class="model"></div>
@@ -66,17 +84,27 @@
                     <div class="product-image"></div>
                 </div>
                 <div class="fourcol last">
-                    <h2>{{ 'CORDLESS.PRODUCT_1_PRICE' | translate }}</h2>
-                    <h2>{{ 'CORDLESS.PRODUCT_1_TAGLINE' | translate }}</h2>
+                    <h2 class="dc-62-animal-pro">{{ 'CORDLESS.PRODUCT_1_PRICE' | translate }}</h2>
+                    <h3 class="dc-62-animal-pro">{{ 'CORDLESS.PRODUCT_1_TAGLINE' | translate }}</h3>
+                    <h2 class="dc-62-uptop">{{ 'CORDLESS.PRODUCT_2_PRICE' | translate }}</h2>
+                    <h3 class="dc-62-uptop">{{ 'CORDLESS.PRODUCT_2_TAGLINE' | translate }}</h3>
+                    <h2 class="dc-45-animal-pro">{{ 'CORDLESS.PRODUCT_3_PRICE' | translate }}</h2>
+                    <h3 class="dc-45-animal-pro ">{{ 'CORDLESS.PRODUCT_3_TAGLINE' | translate }}</h3>
+                    <h2 class="dc-35-multifloor">{{ 'CORDLESS.PRODUCT_4_PRICE' | translate }}</h2>
+                    <h3 class="dc-35-multifloor">{{ 'CORDLESS.PRODUCT_4_TAGLINE' | translate }}</h3>
                     <div class="tools">
                         <p>{{ 'SHARED.INCLUDED_BOX' | translate }}:</p>
-                        <div>
-                            <img height="66" src="images/handhelds/tool1.jpg" width="57" />
-                            <p>{{ 'CORDLESS.PRODUCT_1_TOOL_1_TITLE' | translate }}</p>
+                        <div class="combination-tool tool">
+                            <div></div>
+                            <p>{{ 'SHARED.COMBINATION_TOOL' | translate }}</p>
                         </div>
-                        <div>
-                            <img height="66" src="images/handhelds/tool2.jpg" width="59" />
-                            <p>{{ 'CORDLESS.PRODUCT_1_TOOL_2_TITLE' | translate }}</p>
+                        <div class="motorised-tool tool">
+                            <div></div>
+                            <p>{{ 'SHARED.MOTORISED_TOOL' | translate }}</p>
+                        </div>
+                        <div class="crevice-tool tool">
+                            <div></div>
+                            <p>{{ 'SHARED.CREVICE_TOOL' | translate }}</p>
                         </div>
                     </div>
                 </div>

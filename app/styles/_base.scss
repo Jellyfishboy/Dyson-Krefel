@@ -2,6 +2,8 @@ body {
     color:$darkgrey;
     @extend .futura;
     max-width:780px;
+    font-size: 1.2em;
+    line-height: 1.5em;
 }
 h1 {
     font-size: 25px;
@@ -74,7 +76,7 @@ a.active, a:hover {
     background-color: rgb(255,255,255);
     @include filter-gradient(#ffffff, #ededed, vertical);
     $experimental-support-for-svg: true;
-    @include background-image(linear-gradient(top, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 59%,rgba(237,237,237,1) 100%));
+    @include background-image(linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 75%, rgba(246,246,246,1) 90%,rgba(237,237,237,1) 100%));
 }
 .border_bottom {
     border-bottom:1px solid #cccccc;
@@ -132,8 +134,8 @@ a.active, a:hover {
                 @extend .shared-arrow;
                 width:31px;
                 height:14px;
-                position: relative;
                 top:14px;
+                position: relative;
                 display: block;
             }
             div {
@@ -144,6 +146,9 @@ a.active, a:hover {
                     }
                     &.bordered p {
                         border-left:1px solid #ccc;
+                    }
+                    span {
+                        display: block;
                     }
             }
             .current {
@@ -171,6 +176,7 @@ a.active, a:hover {
                     text-align: center;
                     width:110px;
                     display:none;
+                    height:122px;
                         div {
                             width:55px;
                             height:66px;
@@ -193,6 +199,15 @@ a.active, a:hover {
                         }
                         &.motorised-tool div {
                             @extend .tools-motorised;
+                        }
+                        &.hard-tool div {
+                            @extend .tools-hard;
+                        }
+                        &.mattress-tool div {
+                            @extend .tools-mattress;
+                        }
+                        &.stubborn-tool div {
+                            @extend .tools-stubborn
                         }
                 }
 

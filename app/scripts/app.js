@@ -20,7 +20,7 @@ angular.module('askDysonWebApp', ['pascalprecht.translate', 'ngRoute'])
                 controller: 'MainCtrl'
             })
             .when('/fans-and-heaters', {
-                templateUrl: 'views/fans_heaters.html',
+                templateUrl: 'views/fans.html',
                 controller: 'MainCtrl'
             })
             .otherwise({
@@ -60,9 +60,12 @@ angular.module('askDysonWebApp', ['pascalprecht.translate', 'ngRoute'])
 
                     CREVICE_TOOL: 'Crevice tool',
                     COMBINATION_TOOL: 'Combination tool',
-                    TFT_TOOL: 'Flexi tool',
+                    TFT_TOOL: 'Tangle-free turbine tool',
                     MOTORISED_TOOL: 'Mini motorised tool',
-                    STAIR_TOOL: 'Stair tool'
+                    STAIR_TOOL: 'Stair tool',
+                    MATTRESS_TOOL: 'Mattress tool',
+                    HARD_TOOL: 'Articulating hard floor tool',
+                    STUBBORN_TOOL: 'Stubborn dirt brush'
 
                 },
                 INDEX:
@@ -102,11 +105,11 @@ angular.module('askDysonWebApp', ['pascalprecht.translate', 'ngRoute'])
                     HERO_HEADLINE: 'The highest suction of any handheld',
                     HERO_BUTTON: 'Learn more',
 
-                    PRODUCT_1_NAME: 'DC34 Origin',
+                    PRODUCT_1_NAME: 'DC34 Animal',
                     PRODUCT_1_PRICE: '€379',
                     PRODUCT_1_TAGLINE: '15 minutes of high powerful suction that doesn’t fade.',
 
-                    PRODUCT_2_NAME: 'DC34 Animal',
+                    PRODUCT_2_NAME: 'DC34 Origin',
                     PRODUCT_2_PRICE: '€279',
                     PRODUCT_2_TAGLINE: '2 15 minutes of high powerful suction that doesn’t fade.',
 
@@ -120,12 +123,21 @@ angular.module('askDysonWebApp', ['pascalprecht.translate', 'ngRoute'])
                     HERO_HEADLINE: 'Sucks up as much dust as even a corded vacuum.',
                     HERO_BUTTON: 'Learn more',
 
+                    PRODUCT_1_NAME: 'DC62 Animal Pro',
                     PRODUCT_1_PRICE: '€379',
                     PRODUCT_1_TAGLINE: 'The most powerful cordless vacuum for floor to ceiling cleaning.',
 
+                    PRODUCT_2_NAME: 'DC62 Up Top',
+                    PRODUCT_2_PRICE: '€379',
+                    PRODUCT_2_TAGLINE: 'The most powerful cordless vacuum for floor to ceiling cleaning.',
 
-                    // PRODUCT_2_PRICE:
-                    // PRODUCT_2_TAGLINE
+                    PRODUCT_3_NAME: 'DC45 Animal Pro',
+                    PRODUCT_3_PRICE: '€359',
+                    PRODUCT_3_TAGLINE: 'The most powerful cordless vacuum for floor to ceiling cleaning.',
+
+                    PRODUCT_4_NAME: 'DC35 Multifloor',
+                    PRODUCT_4_PRICE: '€329',
+                    PRODUCT_4_TAGLINE: 'The most powerful cordless vacuum for floor to ceiling cleaning.',
 
                     ALL_DYSONS_HAVE: 'All Dyson cordless vacuums have',
 
@@ -139,12 +151,32 @@ angular.module('askDysonWebApp', ['pascalprecht.translate', 'ngRoute'])
                     HERO_HEADLINE_3: 'No loss of suction',
                     HERO_BUTTON: 'Learn more',
 
+                    PRODUCT_1_NAME: 'DC52 Animal Complete',
                     PRODUCT_1_PRICE: '€379',
                     PRODUCT_1_TAGLINE: 'Powerful complete clean around the home.',
 
-                    // PRODUCT_2_PRICE:
-                    // PRODUCT_2_TAGLINE
+                    PRODUCT_2_NAME: 'DC52 Allergy Musclehead Parquet',
+                    PRODUCT_2_PRICE: '€3',
+                    PRODUCT_2_TAGLINE: 'Powerful complete clean around the home.',
 
+                    PRODUCT_3_NAME: 'DC52 Allergy Musclehead',
+                    PRODUCT_3_PRICE: '€379',
+                    PRODUCT_3_TAGLINE: 'Powerful complete clean around the home.',
+
+                    PRODUCT_4_NAME: 'DC33c Allergy',
+                    PRODUCT_4_PRICE: '€379',
+                    PRODUCT_4_TAGLINE: 'Powerful complete clean around the home.',
+
+                    PRODUCT_5_NAME: 'DC33c Origin Plus',
+                    PRODUCT_5_PRICE: '€379',
+                    PRODUCT_5_TAGLINE: 'Powerful complete clean around the home.',
+
+                    PRODUCT_6_NAME: 'DC33 Musclehead',
+                    PRODUCT_6_PRICE: '€379',
+                    PRODUCT_6_TAGLINE: 'Powerful complete clean around the home.',
+
+
+                    
                     ALL_DYSONS_HAVE: 'All Dyson cylinder vacuums have',
 
                     FIVE_GUARANTEE_TEXT: 'All new Dyson cylinder vacuums come with a free 5 year parts and labour guarantee.'
@@ -155,8 +187,30 @@ angular.module('askDysonWebApp', ['pascalprecht.translate', 'ngRoute'])
                     HERO_HEADLINE: 'Fast, even room heating. High velocity air to cool.',
                     HERO_BUTTON: 'Learn more',
 
+                    PRODUCT_1_NAME: 'AM05 Black/Nickel',
                     PRODUCT_1_PRICE: '€379',
                     PRODUCT_1_TAGLINE: 'In winder provides long-range heat projection. In summer it has powerful airflow and air velocity to cool you effectively.',
+
+                    PRODUCT_2_NAME: 'AM05 Iron/Blue',
+                    PRODUCT_2_PRICE: '€379',
+                    PRODUCT_2_TAGLINE: 'In winder provides long-range heat projection. In summer it has powerful airflow and air velocity to cool you effectively.',
+
+                    PRODUCT_3_NAME: 'AM05 White/Silver',
+                    PRODUCT_3_PRICE: '€379',
+                    PRODUCT_3_TAGLINE: 'In winder provides long-range heat projection. In summer it has powerful airflow and air velocity to cool you effectively.',
+
+                    PRODUCT_4_NAME: 'AM06 White/Silver',
+                    PRODUCT_4_PRICE: '€379',
+                    PRODUCT_4_TAGLINE: 'In winder provides long-range heat projection. In summer it has powerful airflow and air velocity to cool you effectively.',
+
+                    PRODUCT_5_NAME: 'AM07 Black/Nickel',
+                    PRODUCT_5_PRICE: '€379',
+                    PRODUCT_5_TAGLINE: 'In winder provides long-range heat projection. In summer it has powerful airflow and air velocity to cool you effectively.',
+
+                    PRODUCT_6_NAME: 'AM08 White/Silver',
+                    PRODUCT_6_PRICE: '€379',
+                    PRODUCT_6_TAGLINE: 'In winder provides long-range heat projection. In summer it has powerful airflow and air velocity to cool you effectively.',
+
                     PRODUCT_1_EXTRA: 'Heating and cooling fan - iron/blue.',
 
                     ALL_DYSONS_HAVE: 'All Dyson fans & heaters have:',

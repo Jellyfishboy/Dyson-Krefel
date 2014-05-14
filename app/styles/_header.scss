@@ -2,8 +2,9 @@
     background-color:#f3f3f3;
     overflow: hidden;
     margin:10px;
-    position: relative;
+    position: absolute;
     z-index:3;
+    width:760px;
     #root {
         @extend .shared-root;
         width:105px;

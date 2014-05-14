@@ -1,3 +1,4 @@
+
 /* SHARED */
 .shared-root { @include shared-sprite(root); }
 .shared-arrow { @include shared-sprite(arrow); }
@@ -6,6 +7,10 @@
 .shared-cost { @include shared-sprite(panel3) };
 .shared-guarantee-5 { @include shared-sprite(panel4_5) };
 .shared-guarantee-2 { @include shared-sprite(panel4_2) };
+.shared-left-arrow-off { @include shared-sprite(left_arrow_off) };
+.shared-right-arrow-off { @include shared-sprite(right_arrow_off) };
+.shared-left-arrow-on { @include shared-sprite(left_arrow_on) };
+.shared-right-arrow-on { @include shared-sprite(right_arrow_on) };
 
 /* Index */
 .index-panel-1 { @include index-sprite(panel1); }
@@ -21,6 +26,12 @@
 .fans-panel-2 { @include fans-sprite(panel2); }
 .fans-panel-3 { @include fans-sprite(panel3); }
 .fans-am05-sku { @include fans-sprite(am05_sku); }
+.fans-thumb-am05-black-nickel { @include fans-sprite(thumb_am05_black_nickel); }
+.fans-thumb-am05-iron-blue { @include fans-sprite(thumb_am05_iron_blue); }
+.fans-thumb-am05-white-silver { @include fans-sprite(thumb_am05_white_silver); }
+.fans-thumb-am06-white-silver { @include fans-sprite(thumb_am06_white_silver); }
+.fans-thumb-am07-black-nickel { @include fans-sprite(thumb_am07_black_nickel); }
+.fans-thumb-am08-white-silver { @include fans-sprite(thumb_am08_white_silver); }
 
 /* Handhelds */
 .handhelds-hygenic { @include handhelds-sprite(panel5); }
@@ -34,12 +45,24 @@
 .tools-motorised { @include tools-sprite(tool3); }
 .tools-tft { @include tools-sprite(tool4); }
 .tools-stair { @include tools-sprite(tool5); }
+.tools-hard { @include tools-sprite(tool6); }
+.tools-mattress { @include tools-sprite(tool7); }
+.tools-stubborn { @include tools-sprite(tool8); }
 
 /* Cylinder */
 .cylinders-dc52-animal-sku { @include cylinders-sprite(dc52_cylinder_sku); }
+.cylinders-thumb-dc52-animal-complete { @include cylinders-sprite(thumb_dc52_animal_complete); }
+.cylinders-thumb-dc52-allergy-musclehead-parquet { @include cylinders-sprite(thumb_dc52_allergy_musclehead_parquet); }
+.cylinders-thumb-dc52-allergy-musclehead { @include cylinders-sprite(thumb_dc52_allergy_musclehead); }
+.cylinders-thumb-dc33-allergy { @include cylinders-sprite(thumb_dc33_allergy); }
+.cylinders-thumb-dc33-origin-plus { @include cylinders-sprite(thumb_dc33_origin_plus); }
 
 /* Cordless */
 .cordless-dc62-animal-sku { @include cordless-sprite(dc62_animal_sku); }
+.cordless-thumb-dc62-animal-pro { @include cordless-sprite(thumb_dc62_animal_pro); }
+.cordless-thumb-dc62-uptop { @include cordless-sprite(thumb_dc62_uptop); }
+.cordless-thumb-dc45-animal-pro { @include cordless-sprite(thumb_dc45_animal_pro); }
+.cordless-thumb-dc35-multifloor { @include cordless-sprite(thumb_dc35_multifloor); }
 
 
 // /* Handheld */
