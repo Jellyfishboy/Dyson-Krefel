@@ -32,10 +32,15 @@
 .fans-thumb-am06-white-silver { @include fans-sprite(thumb_am06_white_silver); }
 .fans-thumb-am07-black-nickel { @include fans-sprite(thumb_am07_black_nickel); }
 .fans-thumb-am08-white-silver { @include fans-sprite(thumb_am08_white_silver); }
+.fans-motif-am05 { @include fans-sprite(AM05); }
+.fans-motif-am06 { @include fans-sprite(AM06); }
+.fans-motif-am07 { @include fans-sprite(AM07); }
+.fans-motif-am08 { @include fans-sprite(AM08); }
 
 /* Handhelds */
 .handhelds-hygenic { @include handhelds-sprite(panel5); }
-.handhelds-dc34-origin-sku { @include handhelds-sprite(dc34_origin_sku); }
+.handhelds-motif-dc34-origin { @include handhelds-sprite(DC34_origin); }
+.handhelds-motif-dc34-animal { @include handhelds-sprite(DC34_animal); }
 .handhelds-thumb-dc34-origin { @include handhelds-sprite(thumb_dc34_origin); }
 .handhelds-thumb-dc34-animal { @include handhelds-sprite(thumb_dc34_animal); }
 
@@ -50,19 +55,28 @@
 .tools-stubborn { @include tools-sprite(tool8); }
 
 /* Cylinder */
-.cylinders-dc52-animal-sku { @include cylinders-sprite(dc52_cylinder_sku); }
 .cylinders-thumb-dc52-animal-complete { @include cylinders-sprite(thumb_dc52_animal_complete); }
 .cylinders-thumb-dc52-allergy-musclehead-parquet { @include cylinders-sprite(thumb_dc52_allergy_musclehead_parquet); }
 .cylinders-thumb-dc52-allergy-musclehead { @include cylinders-sprite(thumb_dc52_allergy_musclehead); }
 .cylinders-thumb-dc33-allergy { @include cylinders-sprite(thumb_dc33_allergy); }
 .cylinders-thumb-dc33-origin-plus { @include cylinders-sprite(thumb_dc33_origin_plus); }
+.cylinders-thumb-dc33-musclehead { @include cylinders-sprite(thumb_dc33_musclehead); }
+.cylinders-motif-dc52-animal-complete { @include cylinders-sprite(DC52_animal_complete); }
+.cylinders-motif-dc52-allergy-musclehead-parquet { @include cylinders-sprite(DC52_allergy_musclehead_parquet); }
+.cylinders-motif-dc52-allergy-musclehead { @include cylinders-sprite(DC52_allergy_musclehead); }
+.cylinders-motif-dc33-allergy { @include cylinders-sprite(DC33_allergy); }
+.cylinders-motif-dc33-origin-plus { @include cylinders-sprite(DC33_origin_plus); }
+.cylinders-motif-dc33-musclehead { @include cylinders-sprite(DC33_musclehead); }
 
 /* Cordless */
-.cordless-dc62-animal-sku { @include cordless-sprite(dc62_animal_sku); }
 .cordless-thumb-dc62-animal-pro { @include cordless-sprite(thumb_dc62_animal_pro); }
 .cordless-thumb-dc62-uptop { @include cordless-sprite(thumb_dc62_uptop); }
 .cordless-thumb-dc45-animal-pro { @include cordless-sprite(thumb_dc45_animal_pro); }
 .cordless-thumb-dc35-multifloor { @include cordless-sprite(thumb_dc35_multifloor); }
+.cordless-motif-dc62-animal-pro { @include cordless-sprite(DC62_Animal); }
+.cordless-motif-dc62-uptop { @include cordless-sprite(DC62_up_top); }
+.cordless-motif-dc45-animal-pro { @include cordless-sprite(DC45_animalpro); }
+.cordless-motif-dc35-multifloor { @include cordless-sprite(DC35_multifloor); }
 
 
 // /* Handheld */

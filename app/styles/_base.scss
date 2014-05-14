@@ -157,70 +157,75 @@ a.active, a:hover {
     }
 }
 .product {
-    .fourcol {
-        h2,h3 {
-            display: none;
+    position:relative;
+    z-index:3;
+        .model {
+            margin:5px 0 0 15px;
         }
-        h2 {
-            margin-top:50px;
-            @extend .futura-medium;
-        }
-        h3 {
-            padding-bottom:20px;
-            border-bottom:1px solid #ccc;
-        }
-        .tools {
-            border-bottom:1px solid #ccc;
-            margin-bottom:25px;
-                .tool {
-                    text-align: center;
-                    width:110px;
-                    display:none;
-                    height:122px;
-                        div {
-                            width:55px;
-                            height:66px;
-                            margin:0 auto;
-                        }
-                        p {
-                            margin:10px 0 !important;
-                        }
-                        &.crevice-tool div {
-                            @extend .tools-crevice;
-                        }
-                        &.stair-tool div {
-                            @extend .tools-stair;
-                        }
-                        &.tft-tool div {
-                            @extend .tools-tft;
-                        }
-                        &.combination-tool div {
-                            @extend .tools-combination;
-                        }
-                        &.motorised-tool div {
-                            @extend .tools-motorised;
-                        }
-                        &.hard-tool div {
-                            @extend .tools-hard;
-                        }
-                        &.mattress-tool div {
-                            @extend .tools-mattress;
-                        }
-                        &.stubborn-tool div {
-                            @extend .tools-stubborn
-                        }
-                }
-
-        }
-    }
-    .sixcol.last {
-        height:59px;
-        padding:16px 0;
-            .dbutton {
-                float:right;
-                margin-right:15px;
+        .fourcol {
+            h2,h3 {
+                display: none;
             }
-    }
+            h2 {
+                margin-top:50px;
+                @extend .futura-medium;
+            }
+            h3 {
+                padding-bottom:20px;
+                border-bottom:1px solid #ccc;
+            }
+            .tools {
+                border-bottom:1px solid #ccc;
+                margin-bottom:25px;
+                    .tool {
+                        text-align: center;
+                        width:110px;
+                        display:none;
+                        height:122px;
+                            div {
+                                width:55px;
+                                height:66px;
+                                margin:0 auto;
+                            }
+                            p {
+                                margin:10px 0 !important;
+                            }
+                            &.crevice-tool div {
+                                @extend .tools-crevice;
+                            }
+                            &.stair-tool div {
+                                @extend .tools-stair;
+                            }
+                            &.tft-tool div {
+                                @extend .tools-tft;
+                            }
+                            &.combination-tool div {
+                                @extend .tools-combination;
+                            }
+                            &.motorised-tool div {
+                                @extend .tools-motorised;
+                            }
+                            &.hard-tool div {
+                                @extend .tools-hard;
+                            }
+                            &.mattress-tool div {
+                                @extend .tools-mattress;
+                            }
+                            &.stubborn-tool div {
+                                @extend .tools-stubborn
+                            }
+                    }
+
+            }
+        }
+        .sixcol.last {
+            height:59px;
+            padding:16px 0;
+                .dbutton {
+                    float:right;
+                    margin-right:15px;
+                }
+        }
 }
 
 .compare {

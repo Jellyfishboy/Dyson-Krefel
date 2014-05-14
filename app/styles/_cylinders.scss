@@ -74,7 +74,8 @@
             .dc-33-musclehead {
 
                     span {
-
+                        width:114px;
+                        @extend .cylinders-thumb-dc33-musclehead;
                     }
             }
         }
@@ -85,9 +86,9 @@
     // Product variant information
     .dc-52-animal-complete {
         .model {
-            @extend .cylinders-dc52-animal-sku;
-            width:198px;
-            height:59px;
+            @extend .cylinders-motif-dc52-animal-complete;
+            width:262px;
+            height:50px;
         }
         .product-image {
             background-image:url(../images/cylinders/dc52_animal.jpg);
@@ -104,7 +105,11 @@
         }
     }
     .dc-52-allergy-musclehead-parquet {
-
+        .model {
+            @extend .cylinders-motif-dc52-allergy-musclehead-parquet;
+            width:404px;
+            height:50px;
+        }
         .product-image {
             background-image:url(../images/cylinders/DC52_IRSRPU.jpg);
             width:465px;
@@ -121,7 +126,11 @@
         }
     }
     .dc-52-allergy-musclehead {
-
+        .model {
+            @extend .cylinders-motif-dc52-allergy-musclehead;
+            width:404px;
+            height:50px;
+        }
         .product-image {
             background-image:url(../images/cylinders/DC52_IRSBL.jpg);
             width:465px;
@@ -139,7 +148,11 @@
         }
     }
     .dc-33-allergy {
-
+        .model {
+            @extend .cylinders-motif-dc33-allergy;
+            width:404px;
+            height:50px;
+        }
         .product-image {
             background-image:url(../images/cylinders/DC33c_IRSRIBL2.jpg);
             width:465px;
@@ -156,7 +169,11 @@
         }
     }
     .dc-33-origin-plus {
-
+        .model {
+            @extend .cylinders-motif-dc33-origin-plus;
+            width:404px;
+            height:50px;
+        }
         .product-image {
             background-image:url(../images/cylinders/DC33c_IRMRED.jpg);
             width:465px;
@@ -173,7 +190,11 @@
         }
     }
     .dc-33-musclehead {
-
+        .model {
+            @extend .cylinders-motif-dc33-musclehead;
+            width:204px;
+            height:50px;
+        }
         .product-image {
             background-image:url(../images/cylinders/DC33c_IRSRIFU2.jpg);
             width:465px;

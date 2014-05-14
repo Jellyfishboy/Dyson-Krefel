@@ -44,9 +44,9 @@
     // Product variant information
     div.dc-34-origin {
         .model {
-            @extend .handhelds-dc34-origin-sku;
-            width:105px;
-            height:59px;
+            @extend .handhelds-motif-dc34-origin;
+            width:119px;
+            height:50px;
         }
         .product-image {
             background-image:url(../images/handhelds/DC34_IRSFU.jpg);
@@ -64,9 +64,9 @@
     }
     div.dc-34-animal {
         .model {
-            // @extend .handhelds-dc34-animal-sku;
-            width:105px;
-            height:59px;
+            @extend .handhelds-motif-dc34-animal;
+            width:129px;
+            height:50px;
         }
         .product-image {
             background-image:url(../images/handhelds/DC34_IRSRPU2.jpg);

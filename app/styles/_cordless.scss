@@ -67,9 +67,9 @@
     // Product variant information
     .dc-62-animal-pro {
         .model {
-            @extend .cordless-dc62-animal-sku;
-            width:116px;
-            height:59px;
+            @extend .cordless-motif-dc62-animal-pro;
+            width:128px;
+            height:50px;
         }
         .product-image {
             background-image:url(../images/cordless/DC62_IRNKSPU.jpg);
@@ -86,7 +86,11 @@
         }
     }
     .dc-62-uptop {
-
+        .model {
+            @extend .cordless-motif-dc62-uptop;
+            width:128px;
+            height:50px;
+        }
         .product-image {
             background-image:url(../images/cordless/DC62_IRNKSPU.jpg);
             width:465px;
@@ -103,7 +107,11 @@
         }
     }
     .dc-45-animal-pro {
-
+        .model {
+            @extend .cordless-motif-dc45-animal-pro;
+            width:309px;
+            height:50px;
+        }
         .product-image {
             background-image:url(../images/cordless/DC45_IRNKSBL.jpg);
             width:465px;
@@ -120,7 +128,11 @@
         }
     }
     .dc-35-multifloor {
-
+        .model {
+            @extend .cordless-motif-dc35-multifloor;
+            width:309px;
+            height:50px;
+        }
         .product-image {
             background-image:url(../images/cordless/DC35_IRSRIBL.jpg);
             width:465px;
