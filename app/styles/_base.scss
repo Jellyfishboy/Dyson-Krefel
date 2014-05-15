@@ -140,7 +140,7 @@ a.active, a:hover {
             margin:5px 0 0 15px;
         }
         .fourcol {
-            h2,h3 {
+            span {
                 display: none;
             }
             h2 {
@@ -189,10 +189,14 @@ a.active, a:hover {
                                 @extend .tools-mattress;
                             }
                             &.stubborn-tool div {
-                                @extend .tools-stubborn
+                                @extend .tools-stubborn;
                             }
                     }
+                    
 
+            }
+            .extra p {
+                display: none;
             }
         }
         .sixcol.last {

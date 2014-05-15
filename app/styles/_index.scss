@@ -31,6 +31,7 @@
          div {
             height:77px;
             width:77px;
+            margin:112px auto;
             @extend .shared-play-off;
                 &:hover {
                     @extend .shared-play-on;

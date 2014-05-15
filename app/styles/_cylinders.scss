@@ -63,21 +63,27 @@
                     }
             }
             .dc-33-allergy {
-                
+                position: relative;
+                top:-18px;
                      span {
                         width:133px;
                         @extend .cylinders-thumb-dc33-allergy;
                      }
+                     p:last-child {
+                        height:32px;
+                     }
             }
             .dc-33-origin-plus {
-
+                position: relative;
+                top:-18px;
                     span {
                         width:114px;
                         @extend .cylinders-thumb-dc33-origin-plus;
                     }
             }
             .dc-33-musclehead {
-
+                position: relative;
+                top:-18px;
                     span {
                         width:114px;
                         @extend .cylinders-thumb-dc33-musclehead;
@@ -100,7 +106,7 @@
             width:465px;
             height:400px;
         }
-        h2.dc-52-animal-complete, h3.dc-52-animal-complete {
+        span.dc-52-animal-complete {
             display: block;
         }
         .tools {
@@ -121,7 +127,7 @@
             height:400px;
         }
 
-        h2.dc-52-allergy-musclehead-parquet, h3.dc-52-allergy-musclehead-parquet {
+        span.dc-52-allergy-musclehead-parquet {
             display: block;
         }
         .tools {
@@ -142,7 +148,7 @@
             height:400px;
         }
 
-        h2.dc-52-allergy-musclehead, h3.dc-52-allergy-musclehead {
+        span.dc-52-allergy-musclehead {
             display: block;
         }
 
@@ -164,7 +170,7 @@
             height:400px;
         }
 
-        h2.dc-33-allergy, h3.dc-33-allergy {
+        span.dc-33-allergy {
             display: block;
         }
         .tools {
@@ -185,7 +191,7 @@
             height:400px;
         }
 
-        h2.dc-33-origin-plus, h3.dc-33-origin-plus {
+        span.dc-33-origin-plus {
             display: block;
         }
         .tools {
@@ -206,7 +212,7 @@
             height:400px;
         }
 
-        h2.dc-33-allergy, h3.dc-33-allergy {
+        span.dc-33-allergy {
             display: block;
         }
         .tools {

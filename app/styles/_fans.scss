@@ -37,7 +37,7 @@
                     }
             }
             .arrow {
-                left:54.5px;
+                left:64px;
             }
             .am-08-white-silver {
                 padding-right:0;
@@ -54,8 +54,7 @@
                 }
             }
             .am-05-black-nickel {
-                padding-right:11px;
-                margin-left:26px;
+                padding-right:11px; 
                 span {
                     width:96px;
                     @extend .fans-thumb-am05-black-nickel;
@@ -68,6 +67,7 @@
                 }
             }
             .am-05-iron-blue {
+                margin-left:25px;
                 span {
                     width:114px;
                     @extend .fans-thumb-am05-iron-blue;
@@ -97,7 +97,7 @@
             width:465px;
             height:400px;
         }
-        h2.am-05-iron-blue, h3.am-05-iron-blue {
+        span.am-05-iron-blue, p.am-05-iron-blue {
             display: block;
         }
     }
@@ -113,7 +113,7 @@
             height:400px;
         }
 
-        h2.am-05-black-nickel, h3.am-05-black-nickel {
+        span.am-05-black-nickel, p.am-05-black-nickel {
             display: block;
         }
     }
@@ -129,7 +129,7 @@
             height:400px;
         }
 
-        h2.am-05-white-silver, h3.am-05-white-silver {
+        span.am-05-white-silver, p.am-05-white-silver {
             display: block;
         }
     }
@@ -145,7 +145,7 @@
             height:400px;
         }
 
-        h2.am-06-white-silver, h3.am-06-white-silver {
+        span.am-06-white-silver, p.am-06-white-silver {
             display: block;
         }
     }
@@ -161,7 +161,7 @@
             height:400px;
         }
 
-        h2.am-07-black-nickel, h3.am-07-black-nickel {
+        span.am-07-black-nickel, p.am-07-black-nickel {
             display: block;
         }
     }
@@ -177,7 +177,7 @@
             height:400px;
         }
 
-        h2.am-08-white-silver, h3.am-08-white-silver {
+        span.am-08-white-silver, p.am-08-white-silver {
             display: block;
         }
     }

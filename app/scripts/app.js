@@ -189,31 +189,35 @@ angular.module('askDysonWebApp', ['pascalprecht.translate', 'ngRoute'])
                     HERO_HEADLINE: 'Fast, even room heating. High velocity air to cool.',
                     HERO_BUTTON: 'Learn more',
 
-                    PRODUCT_1_NAME: 'AM05 Black/Nickel',
-                    PRODUCT_1_PRICE: '€379',
+                    PRODUCT_1_NAME: 'AM05 Iron/Blue',
+                    PRODUCT_1_PRICE: '€179',
                     PRODUCT_1_TAGLINE: 'In winder provides long-range heat projection. In summer it has powerful airflow and air velocity to cool you effectively.',
+                    PRODUCT_1_EXTRA: 'Heating and cooling fan - iron/blue.',
 
-                    PRODUCT_2_NAME: 'AM05 Iron/Blue',
-                    PRODUCT_2_PRICE: '€379',
+                    PRODUCT_2_NAME: 'AM05 Black/Nickel',
+                    PRODUCT_2_PRICE: '€279',
                     PRODUCT_2_TAGLINE: 'In winder provides long-range heat projection. In summer it has powerful airflow and air velocity to cool you effectively.',
+                    PRODUCT_2_EXTRA: 'Heating and cooling fan - iron/blue.',
 
                     PRODUCT_3_NAME: 'AM05 White/Silver',
                     PRODUCT_3_PRICE: '€379',
                     PRODUCT_3_TAGLINE: 'In winder provides long-range heat projection. In summer it has powerful airflow and air velocity to cool you effectively.',
+                    PRODUCT_3_EXTRA: 'Heating and cooling fan - iron/blue.',
 
                     PRODUCT_4_NAME: 'AM06 White/Silver',
-                    PRODUCT_4_PRICE: '€379',
+                    PRODUCT_4_PRICE: '€479',
                     PRODUCT_4_TAGLINE: 'In winder provides long-range heat projection. In summer it has powerful airflow and air velocity to cool you effectively.',
+                    PRODUCT_4_EXTRA: 'Heating and cooling fan - iron/blue.',
 
                     PRODUCT_5_NAME: 'AM07 Black/Nickel',
-                    PRODUCT_5_PRICE: '€379',
+                    PRODUCT_5_PRICE: '€579',
                     PRODUCT_5_TAGLINE: 'In winder provides long-range heat projection. In summer it has powerful airflow and air velocity to cool you effectively.',
+                    PRODUCT_5_EXTRA: 'Heating and cooling fan - iron/blue.',
 
                     PRODUCT_6_NAME: 'AM08 White/Silver',
-                    PRODUCT_6_PRICE: '€379',
+                    PRODUCT_6_PRICE: '€679',
                     PRODUCT_6_TAGLINE: 'In winder provides long-range heat projection. In summer it has powerful airflow and air velocity to cool you effectively.',
-
-                    PRODUCT_1_EXTRA: 'Heating and cooling fan - iron/blue.',
+                    PRODUCT_6_EXTRA: 'Heating and cooling fan - iron/blue.',
 
                     ALL_DYSONS_HAVE: 'All Dyson fans & heaters have:',
 
