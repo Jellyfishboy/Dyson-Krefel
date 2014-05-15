@@ -50,10 +50,13 @@ a.active, a:hover {
     font-size:30px;
 }
 .gradient {
-    background-color: rgb(255,255,255);
-    @include filter-gradient(#ffffff, #ededed, vertical);
-    $experimental-support-for-svg: true;
-    @include background-image(linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 75%, rgba(246,246,246,1) 90%,rgba(237,237,237,1) 100%));
+    background-image: url('../images/gradient.jpg');
+    width:780px;
+    background-position: left bottom;
+    // background-color: rgb(255,255,255);
+    // @include filter-gradient(#ffffff, #ededed, vertical);
+    // $experimental-support-for-svg: true;
+    // @include background-image(linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 75%, rgba(246,246,246,1) 90%,rgba(237,237,237,1) 100%));
 }
 .border_bottom {
     border-bottom:1px solid #cccccc;

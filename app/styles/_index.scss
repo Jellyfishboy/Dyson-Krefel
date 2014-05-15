@@ -4,10 +4,10 @@
         height:129px;
     }
     .cylinders {
-        @extend .index-panel-1;
+        @extend .index-panel-2;
     }
     .cordless {
-        @extend .index-panel-2;
+        @extend .index-panel-1;
     }
     .handhelds {
         @extend .index-panel-3;
