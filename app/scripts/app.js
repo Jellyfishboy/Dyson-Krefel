@@ -696,6 +696,10 @@ angular.module('dysonKrefelWebApp', ['pascalprecht.translate', 'ngRoute'])
             }
             return vars;
         }
-        $translateProvider.preferredLanguage(getUrlVars()['language'] || 'en-GB');
+        function cleanLanguageVar(array)
+        {
+            return array.split('#')[0]
+        }
+        $translateProvider.preferredLanguage(cleanLanguageVar(getUrlVars()['language']) || 'en-GB');
         $translateProvider.fallbackLanguage('en-GB');
 }]);
