@@ -53,6 +53,7 @@ a.active, a:hover {
     background-image: url('../images/gradient.jpg');
     width:780px;
     background-position: left bottom;
+    background-repeat: no-repeat;
     // background-color: rgb(255,255,255);
     // @include filter-gradient(#ffffff, #ededed, vertical);
     // $experimental-support-for-svg: true;
