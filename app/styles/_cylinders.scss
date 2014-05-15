@@ -44,6 +44,11 @@
             }
             .dc-52-allergy-musclehead-parquet {
                 width:102px;
+                height:260px;
+                    p, span {
+                        position: relative;
+                        top:18px;
+                    }
                     span {
                         width:105px;
                         @extend .cylinders-thumb-dc52-allergy-musclehead-parquet;

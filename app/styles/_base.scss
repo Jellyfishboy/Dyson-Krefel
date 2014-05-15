@@ -48,29 +48,6 @@ a.active, a:hover {
 .video_selector {
     text-align: center;
     font-size:30px;
-        .icon-stack {
-                
-        }
-}
-.icon-stack.player {
-    font-size: 40px;
-    cursor:pointer;
-    @include opacity(0.3);
-    @include transition-property(opacity);
-    @include transition-duration(0.4s);
-    @include transition-timing-function(ease-in);
-        .icon-circle {
-            color:#fff;
-        }
-        &:hover {
-            @include opacity(0.8);
-        }
-        .icon-play {
-            left:3px;
-        }
-        i {
-            line-height:80px;
-        }
 }
 .gradient {
     background-color: rgb(255,255,255);
@@ -227,7 +204,6 @@ a.active, a:hover {
                 }
         }
 }
-
 .compare {
     overflow: hidden;
         h1 {

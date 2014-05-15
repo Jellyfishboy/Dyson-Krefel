@@ -11,6 +11,8 @@
 .shared-right-arrow-off { @include shared-sprite(right_arrow_off) };
 .shared-left-arrow-on { @include shared-sprite(left_arrow_on) };
 .shared-right-arrow-on { @include shared-sprite(right_arrow_on) };
+.shared-play-off { @include shared-sprite(play_off) };
+.shared-play-on { @include shared-sprite(play_on) };
 
 /* Index */
 .index-panel-1 { @include index-sprite(panel1); }
@@ -77,28 +79,3 @@
 .cordless-motif-dc62-uptop { @include cordless-sprite(DC62_up_top); }
 .cordless-motif-dc45-animal-pro { @include cordless-sprite(DC45_animalpro); }
 .cordless-motif-dc35-multifloor { @include cordless-sprite(DC35_multifloor); }
-
-
-// /* Handheld */
-// .sp-handheld-1 { @include machines-sprite(handheld1); }
-// .sp-handheld-2 { @include machines-sprite(handheld2); }
-
-// /* Cordless */
-// .sp-cordless-1 { @include machines-sprite(cordless1); }
-// .sp-cordless-2 { @include machines-sprite(cordless2); }
-// .sp-cordless-3 { @include machines-sprite(cordless3); }
-// .sp-cordless-4 { @include machines-sprite(cordless4); }
-
-// /* Fans */
-// .sp-fan-1 { @include machines-sprite(fan1); }
-// .sp-fan-2 { @include machines-sprite(fan2); }
-// .sp-fan-3 { @include machines-sprite(fan3); }
-// .sp-fan-4 { @include machines-sprite(fan4); }
-
-// /* Cylinders */
-// .sp-cylinder-1 { @include machines-sprite(cylinder1); }
-// .sp-cylinder-2 { @include machines-sprite(cylinder2); }
-// .sp-cylinder-3 { @include machines-sprite(cylinder3); }
-// .sp-cylinder-4 { @include machines-sprite(cylinder4); }
-// .sp-cylinder-5 { @include machines-sprite(cylinder5); }
-// .sp-cylinder-6 { @include machines-sprite(cylinder6); }

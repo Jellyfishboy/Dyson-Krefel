@@ -28,6 +28,14 @@
             margin:80px 20px 0 0;
             text-align: left;
          }
+         div {
+            height:77px;
+            width:77px;
+            @extend .shared-play-off;
+                &:hover {
+                    @extend .shared-play-on;
+                }
+         }
     }
     h1 {
         margin:40px 0 20px;
