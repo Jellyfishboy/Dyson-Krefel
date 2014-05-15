@@ -672,7 +672,7 @@ angular.module('dysonKrefelWebApp')
         }
         function cleanLanguageVar(array)
         {
-            return array.split('#')[0]
+            return (array) ? array.split('#')[0] : null;
         }
         $translateProvider.preferredLanguage(cleanLanguageVar(getUrlVars()['language']) || 'en-GB');
         $translateProvider.fallbackLanguage('en-GB');
