@@ -300,6 +300,7 @@ angular.module('dysonKrefelWebApp')
                 {
                     HERO_HEADLINE: 'La plus haute puissance d’aspiration de tous les aspirateurs à main',
                     HERO_BUTTON: 'En savoir plus',
+                    HERO_LINK: '',
 
                     PRODUCT_1_NAME: 'DC34',
                     PRODUCT_1_PRICE: '199,98 €',
@@ -319,6 +320,7 @@ angular.module('dysonKrefelWebApp')
                 {
                     HERO_HEADLINE: 'Aspire autant de poussiè qu’un grand aspirateur',
                     HERO_BUTTON: 'En savoir plus',
+                    HERO_LINK: '',
 
                     PRODUCT_1_NAME: 'DC62 Animal Pro',
                     PRODUCT_1_PRICE: '429,98 €',
@@ -352,6 +354,7 @@ angular.module('dysonKrefelWebApp')
                     HERO_HEADLINE_3: 'Sans perte d’aspiration',
                     HERO_HEADLINE_WIDTH: '260',
                     HERO_BUTTON: 'En savoir plus',
+                    HERO_LINK: '',
 
                     PRODUCT_1_NAME: 'DC52 Animal Complete',
                     PRODUCT_1_PRICE: '569,98 €',
@@ -392,6 +395,7 @@ angular.module('dysonKrefelWebApp')
                 {
                     HERO_HEADLINE: 'Chauffage rapide et homogène de la pièce. Rafraîchissement de l’air à haute vitesse.',
                     HERO_BUTTON: 'En savoir plus',
+                    HERO_LINK: '',
 
                     PRODUCT_1_NAME: 'AM05 Bleu/Argent',
                     PRODUCT_1_PRICE: '379,00 €',
@@ -516,6 +520,7 @@ angular.module('dysonKrefelWebApp')
                 {
                     HERO_HEADLINE: 'De hoogste zuigkracht van alle kruimelzuigers',
                     HERO_BUTTON: 'Meer informatie',
+                    HERO_LINK: '',
 
                     PRODUCT_1_NAME: 'DC34',
                     PRODUCT_1_PRICE: '199,98 €',
@@ -536,6 +541,7 @@ angular.module('dysonKrefelWebApp')
                 {
                     HERO_HEADLINE: 'Zuigt net zo veel stof op als een grote stofzuiger',
                     HERO_BUTTON: 'Meer informatie',
+                    HERO_LINK: '',
 
                     PRODUCT_1_NAME: 'DC62 Animalpro',
                     PRODUCT_1_PRICE: '429,98 €',
@@ -569,6 +575,7 @@ angular.module('dysonKrefelWebApp')
                     HERO_HEADLINE_3: 'Zonder verlies aan zuigkracht',
                     HERO_HEADLINE_WIDTH: '310',
                     HERO_BUTTON: 'Meer informatie',
+                    HERO_LINK: '',
 
                     PRODUCT_1_NAME: 'DC52 Animal Complete',
                     PRODUCT_1_PRICE: '569,98 €',
@@ -611,6 +618,7 @@ angular.module('dysonKrefelWebApp')
                 {
                     HERO_HEADLINE: 'Snelle gelikmatige kamerverwarming. Een krachtige luchstroom am te verkoelen.',
                     HERO_BUTTON: 'Meer informatie',
+                    HERO_LINK: '',
 
                     PRODUCT_1_NAME: 'AM05 Grijs/Blauw',
                     PRODUCT_1_PRICE: '379,00 €',
