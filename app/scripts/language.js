@@ -68,6 +68,7 @@ angular.module('dysonKrefelWebApp')
                     FANS_HEATERS_BUTTON: 'All fans & heaters',
 
                     MISSION_HEADER: 'Our mission is simple. We solve the problems others seem to ignore.',
+                    VIDEO_URL: '',
 
                     MORE_THAN_MACHINE_HEADER: 'More than just a machine',
 
@@ -285,6 +286,7 @@ angular.module('dysonKrefelWebApp')
                     FANS_HEATERS_BUTTON: 'Tous les ventilateurs et chauffages',
 
                     MISSION_HEADER: 'Notre mission est simple. Nous résolvons les problèmes que d’autres semblent ignorer.',
+                    VIDEO_URL: 'http://www.youtube.com/watch?v=a7rJNNrIIoQ',
 
                     MORE_THAN_MACHINE_HEADER: 'Plus qu’une simple machine',
 
@@ -505,6 +507,7 @@ angular.module('dysonKrefelWebApp')
                     FANS_HEATERS_BUTTON: 'Alle ventilatoren en verwarmingsapparaten',
 
                     MISSION_HEADER: 'Onze missie is simpel. We lossen de problemen op die anderen lijken te negeren.',
+                    VIDEO_URL: 'http://www.youtube.com/watch?v=H-vZ0ZhN2Ks',
 
                     MORE_THAN_MACHINE_HEADER: 'Meer dan gewoon een machine',
 
