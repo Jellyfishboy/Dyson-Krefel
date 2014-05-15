@@ -44,33 +44,41 @@
     &.tools {
 
     }
-    .dc52-content {
+    .content {
         position: absolute;
         top:0px;
-        h1:first-child {
-            color:$medgrey;
-            margin: 200px 0 0 58px;
-        }
-        h1 {
-            color:#fff;
-            margin: 3px 0 35px 58px;
-            width: 290px;
-            line-height: 30px;
-            text-align: left !important;
-        }
-        .dbutton {
-            margin-left:58px;
-        }
-    }
-    .dc62-content {
-        position: absolute;
-        top:0px;
-        width:100%;
-            h1 {
-                margin:200px auto 0;
-                width: 360px;
+            &.dc52 {
+                h1:first-child {
+                    color:$medgrey;
+                    margin: 200px 0 0 58px;
+                }
+                h1 {
+                    color:#fff;
+                    margin: 3px 0 35px 58px;
+                    width: 290px;
+                    line-height: 30px;
+                    text-align: left !important;
+                }
+                .dbutton {
+                    margin-left:58px;
+                }
             }
-            .dbutton {
+            &.dc62 {
+                width:100%;
+                text-align: center;
+                    h1 {
+                        margin:190px auto 110px;
+                        width: 360px;
+                    }
+                    .dbutton {
+                    }
+            }
+            &.air-multiplier {
+                width:100%;
+                    h1 {
+                        margin:190px auto 0;
+                        width:360px;
+                    }
             }
     }
 }

@@ -70,8 +70,10 @@ angular.module('askDysonWebApp', ['pascalprecht.translate', 'ngRoute'])
                 },
                 INDEX:
                 {
-                    HERO_HEADLINE: 'Sucks up as much dust as even a corded vacuum.',
-                    HERO_BUTTON: 'Learn more',
+                    DC62_CAROUSEL_HEADLINE: 'Sucks up as much dust as even a corded vacuum.',
+                    DC62_CAROUSEL_BUTTON: 'Learn more',
+
+                    AIR_MULTIPLIER_HEADLINE: 'Niew. Krachtige luchstroom. Nu tot 75% stiller.',
 
                     CYLINDER_TITLE: 'Cylinder',
                     CORDLESS_TITLE: 'Cordless',
