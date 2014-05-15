@@ -140,9 +140,6 @@ a.active, a:hover {
             margin:5px 0 0 15px;
         }
         .fourcol {
-            span {
-                display: none;
-            }
             h2 {
                 margin-top:50px;
                 @extend .futura-medium;
@@ -191,18 +188,18 @@ a.active, a:hover {
                             &.stubborn-tool div {
                                 @extend .tools-stubborn;
                             }
+                            &.uptop-tool div {
+                                @extend .tools-uptop;
+                            }
                     }
                     
 
-            }
-            .extra p {
-                display: none;
             }
         }
         .sixcol.last {
             height:59px;
             padding:16px 0;
-                .dbutton {
+                a {
                     float:right;
                     margin-right:15px;
                 }

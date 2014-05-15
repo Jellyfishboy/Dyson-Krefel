@@ -25,7 +25,7 @@
             color:#fff;
             width:285px;
             float:right;
-            margin:80px 20px 0 0;
+            margin:60px 20px 0 0;
             text-align: left;
          }
          div {
@@ -57,6 +57,11 @@
     .fourcol {
         p {
             padding-top:10px; 
+        }
+    }
+    .threecol {
+        p:nth-child(3) {
+            height:75px;
         }
     }
 }

@@ -76,9 +76,6 @@
             width:465px;
             height:400px;
         }
-        span.dc-62-animal-pro {
-            display: block;
-        }
         .tools {
             .motorised-tool, .crevice-tool, .combination-tool {
                 display: inline-block;
@@ -96,12 +93,8 @@
             width:465px;
             height:400px;
         }
-
-        span.dc-62-uptop {
-            display: block;
-        }
         .tools {
-            .motorised-tool, .crevice-tool, .combination-tool {
+            .uptop-tool, .crevice-tool, .combination-tool {
                 display: inline-block;
             }
         }
@@ -116,10 +109,6 @@
             background-image:url(../images/cordless/DC45_IRNKSBL.jpg);
             width:465px;
             height:400px;
-        }
-
-        span.dc-45-animal-pro {
-            display: block;
         }
         .tools {
             .motorised-tool, .crevice-tool, .combination-tool {
@@ -137,10 +126,6 @@
             background-image:url(../images/cordless/DC35_IRSRIBL.jpg);
             width:465px;
             height:400px;
-        }
-
-        span.dc-35-multifloor {
-            display: block;
         }
         .tools {
             .combination-tool {

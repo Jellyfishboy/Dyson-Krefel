@@ -32,7 +32,7 @@
     </div>
     <div class="row">
         <div class="twelvecol">
-            <div id="hero-carousel" class="carousel slide home" data-ride="carousel">
+            <div id="hero-carousel" class="carousel slide" data-interval="false" data-ride="carousel">
               <!-- Indicators -->
               <ol class="carousel-indicators">
                 <li data-target="#hero-carousel" data-slide-to="0" class="active"></li>
@@ -45,8 +45,8 @@
                 <div class="item active">
                     <img src="../images/index/hero_3.jpg" alt="Dyson Cinetic">
                     <div class="dc52 content">
-                        <h1>{{ 'CYLINDER.HERO_HEADLINE_1' | translate }}</h1>
-                        <h1>
+                        <h1 style="width:{{ 'CYLINDER.HERO_HEADLINE_WIDTH' | translate }}px !important;">{{ 'CYLINDER.HERO_HEADLINE_1' | translate }}</h1>
+                        <h1 style="width:{{ 'CYLINDER.HERO_HEADLINE_WIDTH' | translate }}px">
                             {{ 'CYLINDER.HERO_HEADLINE_2' | translate }}
                             <br/>
                             {{ 'CYLINDER.HERO_HEADLINE_3' | translate }}
@@ -89,25 +89,25 @@
                 <h2>{{ 'INDEX.CORDLESS_TITLE' | translate }}</h2>
                 <div class="cordless"></div>
                 <p>{{ 'INDEX.CORDLESS_TEXT' | translate }}</p>
-                <a class="dbutton grey" href="#/cordless">{{ 'INDEX.CORDLESS_BUTTON' | translate }}</a>
+                <a class="dbutton grey" href="/#/cordless">{{ 'SHARED.VIEW_ALL' | translate }}</a>
             </div>
             <div class="threecol">
                 <h2>{{ 'INDEX.CYLINDER_TITLE' | translate }}</h2>
                 <div class="cylinders"></div>
                 <p>{{ 'INDEX.CYLINDER_TEXT' | translate }}</p>
-                <a class="dbutton grey" href="#/cylinders">{{ 'INDEX.CYLINDER_BUTTON' | translate }}</a>
+                <a class="dbutton grey" href="/#/cylinders">{{ 'SHARED.VIEW_ALL' | translate }}</a>
             </div>
             <div class="threecol">
                 <h2>{{ 'INDEX.HANDHELD_TITLE' | translate }}</h2>
                 <div class="handhelds"></div>
                 <p>{{ 'INDEX.HANDHELD_TEXT' | translate }}</p>
-                <a class="dbutton grey" href="#/handhelds">{{ 'INDEX.HANDHELD_BUTTON' | translate }}</a>
+                <a class="dbutton grey" href="/#/handhelds">{{ 'SHARED.VIEW_ALL' | translate }}</a>
             </div>
             <div class="threecol last">
                 <h2>{{ 'INDEX.FANS_HEATERS_TITLE' | translate }}</h2>
                 <div class="fans"></div>
                 <p>{{ 'INDEX.FANS_HEATERS_TEXT' | translate }}.</p>
-                <a class="dbutton grey" href="#/fans-and-heaters">{{ 'INDEX.FANS_HEATERS_BUTTON' | translate }}</a>
+                <a class="dbutton grey" href="/#/fans-and-heaters">{{ 'SHARED.VIEW_ALL' | translate }}</a>
             </div>
         </div>
         <div class="row">
@@ -133,7 +133,7 @@
             </div>
             <div class="fourcol">
                 <div class="video_selector cyclone"></div>
-                <h2>{{ 'INDEX.CYCLONE_TITLE' | translate }}y</h2>
+                <h2>{{ 'INDEX.CYCLONE_TITLE' | translate }}</h2>
                 <p>{{ 'INDEX.CYCLONE_TEXT' | translate }}</p>
             </div>
             <div class="fourcol last">

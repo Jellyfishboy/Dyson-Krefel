@@ -45,22 +45,22 @@
         <div class="row select-vacuum gradient">
             <div class="onecol"></div>
             <div class="tencol vacuums">
-                <div class="dc-62-animal-pro bordered current">
+                <div class="dc-62-animal-pro bordered current" ng-click="setIndexValueAndRefreshContent(0)">
                     <span></span>
                     <p>{{ 'CORDLESS.PRODUCT_1_NAME' | translate }}</p>
                     <p>{{ 'CORDLESS.PRODUCT_1_PRICE' | translate }}</p>
                 </div>
-                <div class="dc-62-uptop">
+                <div class="dc-62-uptop" ng-click="setIndexValueAndRefreshContent(1)">
                     <span></span>
                     <p>{{ 'CORDLESS.PRODUCT_2_NAME' | translate }}</p>
                     <p>{{ 'CORDLESS.PRODUCT_2_PRICE' | translate }}</p>
                 </div>
-                <div class="dc-45-animal-pro bordered">
+                <div class="dc-45-animal-pro bordered" ng-click="setIndexValueAndRefreshContent(2)">
                     <span></span>
                     <p>{{ 'CORDLESS.PRODUCT_3_NAME' | translate }}</p>
                     <p>{{ 'CORDLESS.PRODUCT_3_PRICE' | translate }}</p>
                 </div>
-                <div class="dc-35-multifloor bordered">
+                <div class="dc-35-multifloor bordered" ng-click="setIndexValueAndRefreshContent(3)">
                     <span></span>
                     <p>{{ 'CORDLESS.PRODUCT_4_NAME' | translate }}</p>
                     <p>{{ 'CORDLESS.PRODUCT_4_PRICE' | translate }}</p>
@@ -75,7 +75,7 @@
                     <div class="model"></div>
                 </div>
                 <div class="sixcol last">
-                    <div class="dbutton yellow">{{ 'SHARED.SHOP_NOW' | translate }}</div>
+                    <a class="dbutton yellow" ng-href="{{ getProductLinkText(cordlessData.expectedIndexValue) }}">{{ 'SHARED.SHOP_NOW' | translate }}</a>
                 </div>
                 <div class="twelvecol border_bottom"></div>
             </div>
@@ -84,35 +84,40 @@
                     <div class="product-image"></div>
                 </div>
                 <div class="fourcol last">
-                    <span class="dc-62-animal-pro">
-                        <h2>{{ 'CORDLESS.PRODUCT_1_PRICE' | translate }}</h2>
-                        <h3>{{ 'CORDLESS.PRODUCT_1_TAGLINE' | translate }}</h3>
-                    </span>
-                    <span class="dc-62-uptop">
-                        <h2>{{ 'CORDLESS.PRODUCT_2_PRICE' | translate }}</h2>
-                        <h3>{{ 'CORDLESS.PRODUCT_2_TAGLINE' | translate }}</h3>
-                    </span>
-                    <span class="dc-45-animal-pro">
-                        <h2>{{ 'CORDLESS.PRODUCT_3_PRICE' | translate }}</h2>
-                        <h3>{{ 'CORDLESS.PRODUCT_3_TAGLINE' | translate }}</h3>
-                    </span>
-                    <span class="dc-35-multifloor">
-                        <h2>{{ 'CORDLESS.PRODUCT_4_PRICE' | translate }}</h2>
-                        <h3>{{ 'CORDLESS.PRODUCT_4_TAGLINE' | translate }}</h3>
-                    </span>
+                    <h2 ng-bind="getProductPriceText(cordlessData.expectedIndexValue)"></h2>
+                    <h3 ng-bind="getProductTagText(cordlessData.expectedIndexValue)"></h3>
                     <div class="tools">
                         <p>{{ 'SHARED.INCLUDED_BOX' | translate }}:</p>
-                        <div class="combination-tool tool">
-                            <div></div>
-                            <p>{{ 'SHARED.COMBINATION_TOOL' | translate }}</p>
-                        </div>
-                        <div class="motorised-tool tool">
-                            <div></div>
-                            <p>{{ 'SHARED.MOTORISED_TOOL' | translate }}</p>
-                        </div>
-                        <div class="crevice-tool tool">
-                            <div></div>
-                            <p>{{ 'SHARED.CREVICE_TOOL' | translate }}</p>
+                        <div id="tool-carousel" class="carousel slide" data-interval="false" data-ride="carousel">
+                          <!-- Wrapper for slides -->
+                          <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="combination-tool tool">
+                                    <div></div>
+                                    <p>{{ 'SHARED.COMBINATION_TOOL' | translate }}</p>
+                                </div>
+                                <div class="crevice-tool tool">
+                                    <div></div>
+                                    <p>{{ 'SHARED.CREVICE_TOOL' | translate }}</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="motorised-tool tool">
+                                    <div></div>
+                                    <p>{{ 'SHARED.MOTORISED_TOOL' | translate }}</p>
+                                </div>
+                                <div class="uptop-tool tool">
+                                    <div></div>
+                                    <p>{{ 'SHARED.UPTOP_TOOL' | translate }}</p>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="left carousel-control" data-target="#tool-carousel" data-slide="prev">
+                            <span></span>
+                          </div>
+                          <div class="right carousel-control" data-target="#tool-carousel" data-slide="next">
+                            <span></span>
+                          </div>
                         </div>
                     </div>
                 </div>

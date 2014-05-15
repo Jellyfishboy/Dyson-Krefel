@@ -43,32 +43,32 @@
         </div>
         <div class="row select-vacuum gradient">
             <div class="twelvecol vacuums">
-                <div class="am-05-iron-blue current bordered">
+                <div class="am-05-iron-blue current bordered" ng-click="setIndexValueAndRefreshContent(0)">
                     <span></span>
                     <p>{{ 'FANS.PRODUCT_1_NAME' | translate }}</p>
                     <p>{{ 'FANS.PRODUCT_1_PRICE' | translate }}</p>
                 </div>
-                <div class="am-05-black-nickel">
+                <div class="am-05-black-nickel" ng-click="setIndexValueAndRefreshContent(1)">
                     <span></span>
                     <p>{{ 'FANS.PRODUCT_2_NAME' | translate }}</p>
                     <p>{{ 'FANS.PRODUCT_2_PRICE' | translate }}</p>
                 </div>
-                <div class="am-05-white-silver">
+                <div class="am-05-white-silver" ng-click="setIndexValueAndRefreshContent(2)">
                     <span></span>
                     <p>{{ 'FANS.PRODUCT_3_NAME' | translate }}</p>
                     <p>{{ 'FANS.PRODUCT_3_PRICE' | translate }}</p>
                 </div>
-                <div class="am-06-white-silver bordered">
+                <div class="am-06-white-silver bordered" ng-click="setIndexValueAndRefreshContent(3)">
                     <span></span>
                     <p>{{ 'FANS.PRODUCT_4_NAME' | translate }}</p>
                     <p>{{ 'FANS.PRODUCT_4_PRICE' | translate }}</p>
                 </div>
-                <div class="am-07-black-nickel bordered">
+                <div class="am-07-black-nickel bordered" ng-click="setIndexValueAndRefreshContent(4)">
                     <span></span>
                     <p>{{ 'FANS.PRODUCT_5_NAME' | translate }}</p>
                     <p>{{ 'FANS.PRODUCT_5_PRICE' | translate }}</p>
                 </div>
-                <div class="am-08-white-silver bordered">
+                <div class="am-08-white-silver bordered" ng-click="setIndexValueAndRefreshContent(5)">
                     <span></span>
                     <p>{{ 'FANS.PRODUCT_6_NAME' | translate }}</p>
                     <p>{{ 'FANS.PRODUCT_6_PRICE' | translate }}</p>
@@ -82,7 +82,7 @@
                     <div class="model"></div>
                 </div>
                 <div class="sixcol last">
-                    <div class="dbutton yellow">{{ 'SHARED.SHOP_NOW' | translate }}</div>
+                    <!-- <div class="dbutton yellow">{{ 'SHARED.SHOP_NOW' | translate }}</div> -->
                 </div>
                 <div class="twelvecol border_bottom"></div>
             </div>
@@ -91,37 +91,10 @@
                     <div class="product-image"></div>
                 </div>
                 <div class="fourcol last">
-                    <span class="am-05-iron-blue"> 
-                        <h2>{{ 'FANS.PRODUCT_2_PRICE' | translate }}</h2>
-                        <h3>{{ 'FANS.PRODUCT_2_TAGLINE' | translate }}</h3>
-                    </span>
-                    <span class="am-05-black-nickel">
-                        <h2>{{ 'FANS.PRODUCT_1_PRICE' | translate }}</h2>
-                        <h3>{{ 'FANS.PRODUCT_1_TAGLINE' | translate }}</h3>
-                    </span>
-                    <span class="am-05-white-silver">
-                        <h2>{{ 'FANS.PRODUCT_3_PRICE' | translate }}</h2>
-                        <h3>{{ 'FANS.PRODUCT_3_TAGLINE' | translate }}</h3>
-                    </span>
-                    <span class="am-06-white-silver">
-                        <h2>{{ 'FANS.PRODUCT_4_PRICE' | translate }}</h2>
-                        <h3>{{ 'FANS.PRODUCT_4_TAGLINE' | translate }}</h3>
-                    </span>
-                    <span class="am-07-black-nickel">
-                        <h2>{{ 'FANS.PRODUCT_5_PRICE' | translate }}</h2>
-                        <h3>{{ 'FANS.PRODUCT_5_TAGLINE' | translate }}</h3>
-                    </span>
-                    <span class="am-08-white-silver">
-                        <h2>{{ 'FANS.PRODUCT_6_PRICE' | translate }}</h2>
-                        <h3>{{ 'FANS.PRODUCT_6_TAGLINE' | translate }}</h3>
-                    </span>
-                    <div class="tools extra">
-                        <p class="am-05-black-nickel">{{ 'FANS.PRODUCT_1_EXTRA' | translate }}</p>
-                        <p class="am-05-iron-blue">{{ 'FANS.PRODUCT_2_EXTRA' | translate }}</p>
-                        <p class="am-05-white-silver">{{ 'FANS.PRODUCT_3_EXTRA' | translate }}</p>
-                        <p class="am-06-white-silver">{{ 'FANS.PRODUCT_4_EXTRA' | translate }}</p>
-                        <p class="am-07-black-nickel">{{ 'FANS.PRODUCT_5_EXTRA' | translate }}</p>
-                        <p class="am-08-white-silver">{{ 'FANS.PRODUCT_6_EXTRA' | translate }}</p>
+                    <h2 ng-bind="getProductPriceText(fanData.expectedIndexValue)"></h2>
+                    <h3 ng-bind="getProductTagText(fanData.expectedIndexValue)"></h3>
+                    <div class="tools">
+                        <p ng-bind="getProductExtraText(fanData.expectedIndexValue)"></p>
                     </div>
                 </div>
                 <div class="twelvecol border_bottom"></div>
@@ -129,7 +102,7 @@
         </div>
         <div class="row gutter">
             <div class="twelvecol">
-                <h1>{{ 'FANS.ALL_DYSONS_HAVE' | translate }}</h1>
+                <h1>{{ 'FANS.ALL_DYSONS_HAVE' | translate }}:</h1>
             </div>
         </div>
         <div class="row gutter features">

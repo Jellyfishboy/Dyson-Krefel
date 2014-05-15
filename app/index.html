@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="styles/application.css">
     <!-- endbuild -->
   </head>
-  <body ng-app="askDysonWebApp" class="ng-app:askDysonWebApp" id="ng-app">
+  <body ng-app="dysonKrefelWebApp" class="ng-app:dysonKrefelWebApp" id="ng-app">
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -56,7 +56,12 @@
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
-        <script src="scripts/selector.js"></script>
+        <script src="scripts/controllers/handheld.js"></script>
+        <script src="scripts/controllers/cordless.js"></script>
+        <script src="scripts/controllers/cylinder.js"></script>
+        <script src="scripts/controllers/fan.js"></script>
+        <script src="scripts/services/productService.js"></script>
+        <script src="scripts/custom.js"></script>
         <!-- endbuild -->
 
 </body>

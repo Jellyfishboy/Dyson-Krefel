@@ -1,5 +1,6 @@
 'use strict';
 
-angular.module('askDysonWebApp')
-  .controller('MainCtrl', function ($scope) {
+angular.module('dysonKrefelWebApp')
+  .controller('MainController', function ($scope) {
   });
+

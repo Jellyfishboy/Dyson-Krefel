@@ -26,8 +26,8 @@
                     </ul>
                 </div>
                 <div class="hero_image">
-                    <h1>{{ 'CYLINDER.HERO_HEADLINE_1' | translate }}</h1>
-                    <h1>
+                    <h1 style="width:{{ 'CYLINDER.HERO_HEADLINE_WIDTH' | translate }}px !important;">{{ 'CYLINDER.HERO_HEADLINE_1' | translate }}</h1>
+                    <h1 style="width:{{ 'CYLINDER.HERO_HEADLINE_WIDTH' | translate }}px !important;">
                         {{ 'CYLINDER.HERO_HEADLINE_2' | translate }}
                         <br/>
                         {{ 'CYLINDER.HERO_HEADLINE_3' | translate }}
@@ -49,32 +49,32 @@
         </div>
         <div class="row select-vacuum gradient">
             <div class="twelvecol vacuums">
-                <div class="dc-52-animal-complete current bordered">
+                <div class="dc-52-animal-complete current bordered" ng-click="setIndexValueAndRefreshContent(0)">
                     <span></span>
                     <p>{{ 'CYLINDER.PRODUCT_1_NAME' | translate }}</p>
-                    <p>{{ 'HANDHELD.PRODUCT_1_PRICE' | translate }}</p>
+                    <p>{{ 'CYLINDER.PRODUCT_1_PRICE' | translate }}</p>
                 </div>
-                <div class="dc-52-allergy-musclehead-parquet">
+                <div class="dc-52-allergy-musclehead-parquet" ng-click="setIndexValueAndRefreshContent(1)">
                     <span></span>
                     <p>{{ 'CYLINDER.PRODUCT_2_NAME' | translate }}</p>
                     <p>{{ 'CYLINDER.PRODUCT_2_PRICE' | translate }}</p>
                 </div>
-                <div class="dc-52-allergy-musclehead">
+                <div class="dc-52-allergy-musclehead" ng-click="setIndexValueAndRefreshContent(2)">
                     <span></span>
                     <p>{{ 'CYLINDER.PRODUCT_3_NAME' | translate }}</p>
                     <p>{{ 'CYLINDER.PRODUCT_3_PRICE' | translate }}</p>
                 </div>
-                <div class="dc-33-allergy bordered">
+                <div class="dc-33-allergy bordered" ng-click="setIndexValueAndRefreshContent(3)">
                     <span></span>
                     <p>{{ 'CYLINDER.PRODUCT_4_NAME' | translate }}</p>
                     <p>{{ 'CYLINDER.PRODUCT_4_PRICE' | translate }}</p>
                 </div>
-                <div class="dc-33-origin-plus">
+                <div class="dc-33-origin-plus" ng-click="setIndexValueAndRefreshContent(4)">
                     <span></span>
                     <p>{{ 'CYLINDER.PRODUCT_5_NAME' | translate }}</p>
                     <p>{{ 'CYLINDER.PRODUCT_5_PRICE' | translate }}</p>
                 </div>
-                <div class="dc-33-musclehead">
+                <div class="dc-33-musclehead" ng-click="setIndexValueAndRefreshContent(5)">
                     <span></span>
                     <p>{{ 'CYLINDER.PRODUCT_6_NAME' | translate }}</p>
                     <p>{{ 'CYLINDER.PRODUCT_6_PRICE' | translate }}</p>
@@ -88,7 +88,7 @@
                     <div class="model"></div>
                 </div>
                 <div class="sixcol last">
-                    <div class="dbutton yellow">{{ 'SHARED.SHOP_NOW' | translate }}</div>
+                    <a class="dbutton yellow" ng-href="{{ getProductLinkText(cylinderData.expectedIndexValue) }}">{{ 'SHARED.SHOP_NOW' | translate }}</a>
                 </div>
                 <div class="twelvecol border_bottom"></div>
             </div>
@@ -97,33 +97,11 @@
                     <div class="product-image"></div>
                 </div>
                 <div class="fourcol last">
-                    <span class="dc-52-animal-complete">
-                        <h2>{{ 'CYLINDER.PRODUCT_1_PRICE' | translate }}</h2>
-                        <h3>{{ 'CYLINDER.PRODUCT_1_TAGLINE' | translate }}</h3>
-                    </span>
-                    <span class="dc-52-allergy-musclehead-parquet">
-                        <h2>{{ 'CYLINDER.PRODUCT_2_PRICE' | translate }}</h2>
-                        <h3>{{ 'CYLINDER.PRODUCT_2_TAGLINE' | translate }}</h3>
-                    </span>
-                    <span class="dc-52-allergy-musclehead">
-                        <h2>{{ 'CYLINDER.PRODUCT_3_PRICE' | translate }}</h2>
-                        <h3>{{ 'CYLINDER.PRODUCT_3_TAGLINE' | translate }}</h3>
-                    </span>
-                    <span class="dc-33-allergy">
-                        <h2>{{ 'CYLINDER.PRODUCT_5_PRICE' | translate }}</h2>
-                        <h3>{{ 'CYLINDER.PRODUCT_5_TAGLINE' | translate }}</h3>
-                    </span>
-                    <span class="dc-33-origin-plus">
-                        <h2>{{ 'CYLINDER.PRODUCT_5_PRICE' | translate }}</h2>
-                        <h3>{{ 'CYLINDER.PRODUCT_5_TAGLINE' | translate }}</h3>
-                    </span>
-                    <span class="dc-33-musclehead">
-                        <h2>{{ 'CYLINDER.PRODUCT_6_PRICE' | translate }}</h2>
-                        <h3>{{ 'CYLINDER.PRODUCT_6_TAGLINE' | translate }}</h3>
-                    </span>
+                    <h2 ng-bind="getProductPriceText(cylinderData.expectedIndexValue)"></h2>
+                    <h3 ng-bind="getProductTagText(cylinderData.expectedIndexValue)"></h3>
                     <div class="tools">
                         <p>{{ 'SHARED.INCLUDED_BOX' | translate }}:</p>
-                        <div id="tool-carousel" class="carousel slide" data-ride="carousel">
+                        <div id="tool-carousel" class="carousel slide" data-interval="false" data-ride="carousel">
                           <!-- Wrapper for slides -->
                           <div class="carousel-inner">
                             <div class="item active">

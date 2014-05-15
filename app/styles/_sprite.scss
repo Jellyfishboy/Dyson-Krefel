@@ -13,6 +13,8 @@
 .shared-right-arrow-on { @include shared-sprite(right_arrow_on) };
 .shared-play-off { @include shared-sprite(play_off) };
 .shared-play-on { @include shared-sprite(play_on) };
+.shared-carousel-arrow-left { @include shared-sprite(carousel_arrow_left); }
+.shared-carousel-arrow-right { @include shared-sprite(carousel_arrow_right); }
 
 /* Index */
 .index-panel-1 { @include index-sprite(panel1); }
@@ -55,6 +57,7 @@
 .tools-hard { @include tools-sprite(tool6); }
 .tools-mattress { @include tools-sprite(tool7); }
 .tools-stubborn { @include tools-sprite(tool8); }
+.tools-uptop { @include tools-sprite(tool9); }
 
 /* Cylinder */
 .cylinders-thumb-dc52-animal-complete { @include cylinders-sprite(thumb_dc52_animal_complete); }

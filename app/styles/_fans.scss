@@ -9,6 +9,7 @@
             h1 {
                 margin: 190px 0 25px 45px;
                 width: 280px;
+                text-align: left;
             }
             .dbutton {
                margin-left:55px; 
@@ -97,9 +98,6 @@
             width:465px;
             height:400px;
         }
-        span.am-05-iron-blue, p.am-05-iron-blue {
-            display: block;
-        }
     }
     .am-05-black-nickel {
         .model {
@@ -111,10 +109,6 @@
             background-image:url(../images/fans/AM05_BLKNK.jpg);
             width:465px;
             height:400px;
-        }
-
-        span.am-05-black-nickel, p.am-05-black-nickel {
-            display: block;
         }
     }
     .am-05-white-silver {
@@ -128,10 +122,6 @@
             width:465px;
             height:400px;
         }
-
-        span.am-05-white-silver, p.am-05-white-silver {
-            display: block;
-        }
     }
     .am-06-white-silver {
         .model {
@@ -143,10 +133,6 @@
             background-image:url(../images/fans/AM06_12_WHSIL.jpg);
             width:465px;
             height:400px;
-        }
-
-        span.am-06-white-silver, p.am-06-white-silver {
-            display: block;
         }
     }
     .am-07-black-nickel {
@@ -160,10 +146,6 @@
             width:465px;
             height:400px;
         }
-
-        span.am-07-black-nickel, p.am-07-black-nickel {
-            display: block;
-        }
     }
     .am-08-white-silver {
         .model {
@@ -175,10 +157,6 @@
             background-image:url(../images/fans/AM08.jpg);
             width:465px;
             height:400px;
-        }
-
-        span.am-08-white-silver, p.am-08-white-silver {
-            display: block;
         }
     }
 }
