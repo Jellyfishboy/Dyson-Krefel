@@ -34,8 +34,7 @@
             top:41%;
         }
         .carousel-indicators {
-            margin-top:20px;
-            margin-bottom:0px; 
+            margin-bottom:-10px;
 
                 li {
                     background-color:transparent;
@@ -95,13 +94,12 @@
                         margin:190px auto 110px;
                         width: 360px;
                     }
-                    .dbutton {
-                    }
             }
             &.air-multiplier {
                 width:100%;
+                text-align: center;
                     h1 {
-                        margin:340px auto 0;
+                        margin:300px auto 50px;
                         width:415px;
                     }
             }
