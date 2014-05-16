@@ -106,6 +106,7 @@ angular.module('dysonKrefelWebApp')
                     object =
                     {
                         expectedIndexValue: 0
+                        // carouselIndexvalue: 0
                     };
                 }
                 return object;

@@ -50,7 +50,8 @@ angular.module('dysonKrefelWebApp')
                     DC62_CAROUSEL_HEADLINE: 'Sucks up as much dust as even a corded vacuum.',
                     DC62_CAROUSEL_BUTTON: 'Learn more',
 
-                    AIR_MULTIPLIER_HEADLINE: 'Niew. Krachtige luchstroom. Nu tot 75% stiller.',
+                    AIR_MULTIPLIER_CAROUSEL_HEADLINE: 'Niew. Krachtige luchstroom. Nu tot 75% stiller.',
+                    AIR_MULTIPLIER_CAROUSEL_BUTTON: 'Learn more',
 
                     CYLINDER_TITLE: 'Cylinder',
                     CORDLESS_TITLE: 'Cordless',
@@ -109,6 +110,7 @@ angular.module('dysonKrefelWebApp')
                     PRODUCT_1_PRICE: '€379',
                     PRODUCT_1_TAGLINE: 'The most powerful cordless vacuum for floor to ceiling cleaning.',
                     PRODUCT_1_SHOP: 'http://www.krefel.be/fr/petit_%C3%A9lectro/aspirer-nettoyer/aspirateur_balai/dc62_animalpro/PKEY_A2_B349_C355_355055',
+                    TOOLS: 'combination,crevice,motorised',
 
                     PRODUCT_2_NAME: 'DC62 Up Top',
                     PRODUCT_2_PRICE: '€379',
@@ -141,32 +143,37 @@ angular.module('dysonKrefelWebApp')
                     PRODUCT_1_PRICE: '€379',
                     PRODUCT_1_TAGLINE: 'Powerful complete clean around the home.',
                     PRODUCT_1_SHOP: 'http://www.krefel.be/fr/petit_%C3%A9lectro/aspirer-nettoyer/aspirateur_tra%C3%AEneau_sans_sac/dc_52_animal/PKEY_A2_B349_C349_349076',
+                    PRODUCT_1_TOOLS: 'tft,hard,combination,stair,stubborn',
 
                     PRODUCT_2_NAME: 'DC52 Allergy Musclehead Parquet',
                     PRODUCT_2_PRICE: '€3',
                     PRODUCT_2_TAGLINE: 'Powerful complete clean around the home.',
                     PRODUCT_2_SHOP: 'http://www.krefel.be/fr/petit_%C3%A9lectro/aspirer-nettoyer/aspirateur_de_table/dc_34_animal_pro/PKEY_A2_B349_C365_365155',
+                    PRODUCT_2_TOOLS: 'hard,stair,combination',
 
                     PRODUCT_3_NAME: 'DC52 Allergy Musclehead',
                     PRODUCT_3_PRICE: '€379',
                     PRODUCT_3_TAGLINE: 'Powerful complete clean around the home.',
                     PRODUCT_3_SHOP: 'http://www.krefel.be/fr/petit_%C3%A9lectro/aspirer-nettoyer/aspirateur_tra%C3%AEneau_sans_sac/dc52_allergy_musclehead/PKEY_A2_B349_C349_349074',
+                    PRODUCT_3_TOOLS: 'stair,combination',
 
                     PRODUCT_4_NAME: 'DC33c Allergy',
                     PRODUCT_4_PRICE: '€379',
                     PRODUCT_4_TAGLINE: 'Powerful complete clean around the home.',
                     PRODUCT_4_SHOP: 'http://www.krefel.be/fr/petit_%C3%A9lectro/aspirer-nettoyer/aspirateur_tra%C3%AEneau_sans_sac/dc33c_allergy/PKEY_A2_B349_C349_349073',
+                    PRODUCT_4_TOOLS: 'stair,combination',
 
                     PRODUCT_5_NAME: 'DC33c Origin Plus',
                     PRODUCT_5_PRICE: '€379',
                     PRODUCT_5_TAGLINE: 'Powerful complete clean around the home.',
                     PRODUCT_5_SHOP: 'http://www.krefel.be/fr/petit_%C3%A9lectro/aspirer-nettoyer/aspirateur_tra%C3%AEneau_sans_sac/dc33c_origin_plus/PKEY_A2_B349_C349_349072',
+                    PRODUCT_5_TOOLS: 'mattress,stair,combination',
 
                     PRODUCT_6_NAME: 'DC33 Musclehead',
                     PRODUCT_6_PRICE: '€379',
                     PRODUCT_6_TAGLINE: 'Powerful complete clean around the home.',
                     PRODUCT_6_SHOP: 'http://www.krefel.be/fr/petit_%C3%A9lectro/aspirer-nettoyer/aspirateur_tra%C3%AEneau_sans_sac/dc33_musclehead/PKEY_A2_B349_C349_349082',
-
+                    PRODUCT_6_TOOLS: 'stair,combination',
 
                     
                     ALL_DYSONS_HAVE: 'All Dyson cylinder vacuums have',
@@ -268,7 +275,8 @@ angular.module('dysonKrefelWebApp')
                     DC62_CAROUSEL_HEADLINE: 'Aspire autant de poussière qu’un aspirateur avec fil.',
                     DC62_CAROUSEL_BUTTON: 'En savoir plus',
 
-                    AIR_MULTIPLIER_HEADLINE: 'Nouveau. Un flux d’air puissant. Désormais jusqu’à 75% plus silencieux.',
+                    AIR_MULTIPLIER_CAROUSEL_HEADLINE: 'Nouveau. Un flux d’air puissant. Désormais jusqu’à 75% plus silencieux.',
+                    AIR_MULTIPLIER_CAROUSEL_BUTTON: 'En savoir plus',
 
                     CYLINDER_TITLE: 'Aspirateurs',
                     CORDLESS_TITLE: 'Aspirateurs sans fil',
@@ -489,7 +497,8 @@ angular.module('dysonKrefelWebApp')
                     DC62_CAROUSEL_HEADLINE: 'Zuigt net zo veel stof op als een grote stofzuiger',
                     DC62_CAROUSEL_BUTTON: 'Meer informatie',
 
-                    AIR_MULTIPLIER_HEADLINE: 'Niew. Krachtige luchstroom. Nu tot 75% stiller.',
+                    AIR_MULTIPLIER_CAROUSEL_HEADLINE: 'Niew. Krachtige luchstroom. Nu tot 75% stiller.',
+                    AIR_MULTIPLIER_CAROUSEL_BUTTON: 'Meer informatie',
 
                     CYLINDER_TITLE: 'Sledestofzuigers',
                     CORDLESS_TITLE: 'Snoerloze stofzuigers',

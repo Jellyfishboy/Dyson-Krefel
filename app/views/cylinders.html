@@ -104,35 +104,13 @@
                         <div id="tool-carousel" class="carousel slide" data-interval="false" data-ride="carousel">
                           <!-- Wrapper for slides -->
                           <div class="carousel-inner">
-                            <div class="item active">
-                                <div class="combination-tool tool">
-                                    <div></div>
-                                    <p>{{ 'SHARED.COMBINATION_TOOL' | translate }}</p>
-                                </div>
-                                <div class="stair-tool tool">
-                                    <div></div>
-                                    <p>{{ 'SHARED.STAIR_TOOL' | translate }}</p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="hard-tool tool">
-                                    <div></div>
-                                    <p>{{ 'SHARED.HARD_TOOL' | translate }}</p>
-                                </div>
-                                <div class="tft-tool tool">
-                                    <div></div>
-                                    <p>{{ 'SHARED.TFT_TOOL' | translate }}</p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="stubborn-tool tool">
-                                    <div></div>
-                                    <p>{{ 'SHARED.STUBBORN_TOOL' | translate }}</p>
-                                </div>
-                                <div class="mattress-tool tool">
-                                    <div></div>
-                                    <p>{{ 'SHARED.MATTRESS_TOOL' | translate }}</p>
-                                </div>
+                            <div class="item" ng-repeat="i in getCarouselItemCount(cylinderData.expectedIndexValue) track by $index" ng-class="{active: $index==0}">
+                                <span ng-repeat-start="tool in tools[$index]"></span>
+                                    <div class="{{tool.className}}-tool tool">
+                                        <div></div>
+                                        <p>{{tool.productName}}</p>
+                                    </div>
+                                <span ng-repeat-end></span>
                             </div>
                           </div>
                           <div class="left carousel-control" data-target="#tool-carousel" data-slide="prev">
