@@ -14,8 +14,6 @@ Bower is a package manager tool (much like [NuGet](http://www.nuget.org/) or [Bu
 
 Furthermore, you will need **npm** for both of these tools to function. You can find a quick and easy installation guide over at the [npm github](https://github.com/npm/npm).
 
-**If you would not like to perform any development and want just the basic template [click here](http://tomdallimore.com/wp-content/uploads/soca.zip)**
-
 ##Resolving dependencies
 
 First off, you will need to install the Grunt package dependencies listed in `package.json`:
